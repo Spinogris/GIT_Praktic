@@ -1,0 +1,83 @@
+Index: Summery/src/de/telran/lesson20230922/ForVsIterator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.lesson20230922;\n\nimport java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.LinkedList;\nimport java.util.List;\n\npublic class ForVsIterator {\n\n    public static void main(String[] args) {\n        List<String> list1 = new ArrayList<>();\n        list1.add(\"One\");\n        list1.add(\"Two\");\n        list1.add(\"Three\");\n\n        List<String> list2 = new LinkedList<>();\n//        list2.add(\"One\");\n//        list2.add(\"Two\");\n//        list2.add(\"Three\");\n        for (int i = 0; i < 10000; i++) {\n            list2.add(String.valueOf(i));\n        }\n\n//        for (int i = 0; i < list1.size(); i++) {\n//            list1.get(i);\n//        }\n\n        // O(N^2)\n        long start = System.nanoTime();\n        for (int i = 0; i < list2.size(); i++) {\n            list2.get(i);\n        }\n        long end = System.nanoTime();\n        System.out.println(\"Time: \" + (end - start));\n\n        // O(N)\n        start = System.nanoTime();\n        for (String s : list2) {\n//            System.out.println(s);\n        }\n        end = System.nanoTime();\n        System.out.println(\"Time: \" + (end - start));\n\n    }\n\n\n}\n
+===================================================================
+diff --git a/Summery/src/de/telran/lesson20230922/ForVsIterator.java b/Summery/src/de/telran/lesson20230922/ForVsIterator.java
+--- a/Summery/src/de/telran/lesson20230922/ForVsIterator.java	
++++ b/Summery/src/de/telran/lesson20230922/ForVsIterator.java	
+@@ -1,47 +1,50 @@
+ package de.telran.lesson20230922;
+ 
+ import java.util.ArrayList;
+-import java.util.Arrays;
+ import java.util.LinkedList;
+ import java.util.List;
+ 
+ public class ForVsIterator {
+ 
+-    public static void main(String[] args) {
+-        List<String> list1 = new ArrayList<>();
+-        list1.add("One");
+-        list1.add("Two");
+-        list1.add("Three");
++  public static void main(String[] args) {
++    List<String> list1 = new ArrayList<>();
++    list1.add("One");
++    list1.add("Two");
++    list1.add("Three");
+ 
+-        List<String> list2 = new LinkedList<>();
++    List<String> list2 = new LinkedList<>();
+ //        list2.add("One");
+ //        list2.add("Two");
+ //        list2.add("Three");
+-        for (int i = 0; i < 10000; i++) {
+-            list2.add(String.valueOf(i));
+-        }
++    for (int i = 0; i < 10000; i++) {
++      list2.add(String.valueOf(i));
++    }
+ 
+ //        for (int i = 0; i < list1.size(); i++) {
+ //            list1.get(i);
+ //        }
+ 
+-        // O(N^2)
+-        long start = System.nanoTime();
+-        for (int i = 0; i < list2.size(); i++) {
+-            list2.get(i);
+-        }
+-        long end = System.nanoTime();
+-        System.out.println("Time: " + (end - start));
++    // O(N^2)
++    long start = System.nanoTime();
++    for (int i = 0; i < list2.size(); i++) {
++      list2.get(i);
++    }
++    long end = System.nanoTime();
++    int t1 = (int) (end - start);
++    System.out.println("Time: " + t1);
+ 
+-        // O(N)
+-        start = System.nanoTime();
+-        for (String s : list2) {
++    // O(N)
++    start = System.nanoTime();
++    for (String s : list2) {
+ //            System.out.println(s);
+-        }
+-        end = System.nanoTime();
+-        System.out.println("Time: " + (end - start));
++    }
++    end = System.nanoTime();
++    int t2 = (int) (end - start);
++    System.out.println("Time: " + t2);
++
++    System.out.println((t1 / t2) + " times difference");
+ 
+-    }
++  }
+ 
+ 
+ }

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0209ea1-2db5-4d97-9c39-8c90d618e7af" name="Changes" comment="2023.01.15&#10;changes UUID" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home/lib/src.zip!/java.base/java/util/UUID.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Zb2gn6jmWIoXmxXgSc7vrQDLkE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vladislavgorin/Documents/skilldesk/MyProject/HomeDoc/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HomeDocApplication">
+    <configuration name="JDBCExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gorin.homedoc.JDBCExample" />
+      <module name="HomeDoc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gorin.homedoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeDocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HomeDoc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gorin.homedoc.HomeDocApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeDocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HomeDoc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gorin.homedoc.HomeDocApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JDBCExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0209ea1-2db5-4d97-9c39-8c90d618e7af" name="Changes" comment="" />
+      <created>1702676572012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702676572012</updated>
+      <workItem from="1702676573684" duration="10836000" />
+      <workItem from="1703061478886" duration="206000" />
+      <workItem from="1703061698648" duration="6838000" />
+      <workItem from="1704702753793" duration="7007000" />
+      <workItem from="1704751073934" duration="17171000" />
+      <workItem from="1705185395638" duration="16465000" />
+      <workItem from="1706370392405" duration="598000" />
+    </task>
+    <task id="LOCAL-00001" summary="2023.01.08&#10;Controllers and service">
+      <option name="closed" value="true" />
+      <created>1704716858391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704716858391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2023.01.08&#10;Create args in TestRepository.java">
+      <option name="closed" value="true" />
+      <created>1704717228581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704717228581</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2023.01.09&#10;DB connect &amp; Use">
+      <option name="closed" value="true" />
+      <created>1704797740421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704797740421</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2023.01.10&#10;DB binary 36 change">
+      <option name="closed" value="true" />
+      <created>1704878277914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704878277914</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2023.01.10&#10;Menu changes">
+      <option name="closed" value="true" />
+      <created>1705307904525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705307904525</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2023.01.15&#10;changes UUID">
+      <option name="closed" value="true" />
+      <created>1705318394777</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705318394777</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2023.01.08&#10;Controllers and service" />
+    <MESSAGE value="2023.01.08&#10;Create args in TestRepository.java" />
+    <MESSAGE value="2023.01.09&#10;DB connect &amp; Use" />
+    <MESSAGE value="2023.01.10&#10;DB binary 36 change" />
+    <MESSAGE value="2023.01.10&#10;Menu changes" />
+    <MESSAGE value="2023.01.15&#10;changes UUID" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023.01.15&#10;changes UUID" />
+  </component>
+</project>

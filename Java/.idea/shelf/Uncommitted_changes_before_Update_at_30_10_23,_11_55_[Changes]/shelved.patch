@@ -1,0 +1,2096 @@
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Company.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_11.prac;\n\npublic class Company {\n    private String name;\n    private Department[] department;\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Company.java b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Company.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Company.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Company.java	(date 1698227674940)
+@@ -2,6 +2,27 @@
+ 
+ public class Company {
+     private String name;
+-    private Department[] department;
++    private Department[] departments = {
++            new Department("Dep1", 01),
++            new Department("Dep2", 02),
++            new Department("Dep3", 03),
++            new Department("Dep4", 04)
++
++    };
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
+ 
+-}
++    public Department[] getDepartments() {
++        return departments;
++    }
++
++    public void setDepartments(Department[] department) {
++        this.departments = department;
++    }
++}
+\ No newline at end of file
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_11.prac;\n\npublic class Main {\n    public static void main(String[] args) {\n        //\n        //\n        //\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Main.java b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Main.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Main.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Main.java	(date 1698227674942)
+@@ -1,9 +1,12 @@
+ package org.example._2023_09_11.prac;
+ 
+ public class Main {
+-    public static void main(String[] args) {
+-        //
+-        //
+-        //
+-    }
++  public static void main(String[] args) {
++    Company company = new Company();
++    Department department = new Department("name", 0);
++    Employee employee = new Employee("name", "Surname", 1000, 01);
++    //
++    //
++    //
++  }
+ }
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_13/ExEx.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_13;\n\nimport java.util.List;\n\npublic class ExEx {\n    //Уровень сложности 5 из 10:\n\n    //Найти сумму всех элементов ArrayList<Integer>.\n    public int getSum(List<Integer> list) {\n        int sum = 0;\n        for (Integer integer : list) {\n            sum = sum + integer;\n        }\n        return sum;\n    }\n\n    //Найти среднее значение элементов LinkedList<Integer>.\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_13/ExEx.java b/Michail_Lessons/src/main/java/org/example/_2023_09_13/ExEx.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_13/ExEx.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_13/ExEx.java	(date 1698227674964)
+@@ -1,18 +1,74 @@
+ package org.example._2023_09_13;
+ 
++import java.util.ArrayList;
++import java.util.LinkedList;
+ import java.util.List;
+ 
+ public class ExEx {
+-    //Уровень сложности 5 из 10:
++  //Уровень сложности 5 из 10:
+ 
+-    //Найти сумму всех элементов ArrayList<Integer>.
+-    public int getSum(List<Integer> list) {
+-        int sum = 0;
+-        for (Integer integer : list) {
+-            sum = sum + integer;
+-        }
+-        return sum;
+-    }
++  //Найти сумму всех элементов ArrayList<Integer>.
++  public int getSum(List<Integer> list) {
++    int sum = 0;
++    for (Integer integer : list) {
++      sum = sum + integer;
++    }
++    return sum;
++  }
+ 
+-    //Найти среднее значение элементов LinkedList<Integer>.
++  //Найти среднее значение элементов LinkedList<Integer>.
++  public int getAverageNum(LinkedList<Integer> list) {
++    int ave = 0;
++    int aveFinal = 0;
++    for (Integer i : list) {
++      ave += i;
++      aveFinal = ave / list.size();
++    }
++    return aveFinal;
++  }
++
++//  Перебрать ArrayList<String> и вывести все элементы на экран.
++
++  public String getInputStringList(ArrayList<String> list) {
++    String stringList = "";
++    for (String integer : list) {
++      stringList += integer;
++    }
++    return stringList;
++  }
++
++//    Перебрать LinkedList<String> и найти самую длинную строку.
++
++  public String getLagestString(LinkedList<String> link) {
++    String a = "";
++    for (String s : link) {
++      if (s.length() > a.length()) {
++        a = s;
++      }
++    }
++    return a;
++  }
++
++//  Создать ArrayList с объектами вашего собственного класса и вывести их на экран.
++
++
++//  ExEx exEx1 = new ExEx();
++//  ExEx exEx2 = new ExEx();
++//  ExEx exEx3 = new ExEx();
++
++
++  public void getExEx1() {
++
++  List<ExEx>list = new ArrayList<>();
++
++//    list.add(exEx1);
++//    list.add(exEx2);
++//    list.add(exEx3);
++
++    // Выводим объекты на экран
++    for (Object i : list) {
++      System.out.println(i);
++    }
++
++  }
+ }
+Index: Summery/src/de/telran/lesson20231020/TaskWithMonkey.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.lesson20231020;\n\nimport de.telran.lesson20230929.Monkey;\n\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class TaskWithMonkey {\n\n    public static void main(String[] args) {\n\n\n        Monkey monkey1 = new Monkey(\"A\", 3, \"grey\", false, 10.9);\n        Monkey monkey2 = new Monkey(\"A\", 2, \"white\", true, 10.1);\n        Monkey monkey3 = new Monkey(\"T\", 3, \"grey\", false, 5);\n        Monkey monkey4 = new Monkey(\"J\", 2, \"black\", true, 7);\n        Monkey monkey5 = new Monkey(\"Y\", 1, \"grey\", true, 6);\n\n        List<Monkey> monkeys = new ArrayList<>();\n        monkeys.add(monkey1);\n        monkeys.add(monkey2);\n        monkeys.add(monkey3);\n        monkeys.add(monkey4);\n        monkeys.add(monkey5);\n        // Получить Map имя / информация, голодна ли обезьянка\n\n        //Получить Map цвет / количество обезьян данного цвета\n\n        //Получить Map цвет / список имен обезьян данного цвета\n\n        //Создать компаратор и отсортировать исходный список по весу и имени\n\n    }\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Summery/src/de/telran/lesson20231020/TaskWithMonkey.java b/Summery/src/de/telran/lesson20231020/TaskWithMonkey.java
+--- a/Summery/src/de/telran/lesson20231020/TaskWithMonkey.java	(revision a0545b0c7705e3bb93d7d5ac0556d3e2490fa27c)
++++ b/Summery/src/de/telran/lesson20231020/TaskWithMonkey.java	(date 1697794456757)
+@@ -7,30 +7,38 @@
+ 
+ public class TaskWithMonkey {
+ 
+-    public static void main(String[] args) {
++  public static void main(String[] args) {
+ 
+ 
+-        Monkey monkey1 = new Monkey("A", 3, "grey", false, 10.9);
+-        Monkey monkey2 = new Monkey("A", 2, "white", true, 10.1);
+-        Monkey monkey3 = new Monkey("T", 3, "grey", false, 5);
+-        Monkey monkey4 = new Monkey("J", 2, "black", true, 7);
+-        Monkey monkey5 = new Monkey("Y", 1, "grey", true, 6);
++    Monkey monkey1 = new Monkey("A", 3, "grey", false, 10.9);
++    Monkey monkey2 = new Monkey("A", 2, "white", true, 10.1);
++    Monkey monkey3 = new Monkey("T", 3, "grey", false, 5);
++    Monkey monkey4 = new Monkey("J", 2, "black", true, 7);
++    Monkey monkey5 = new Monkey("Y", 1, "grey", true, 6);
+ 
+-        List<Monkey> monkeys = new ArrayList<>();
+-        monkeys.add(monkey1);
+-        monkeys.add(monkey2);
+-        monkeys.add(monkey3);
+-        monkeys.add(monkey4);
+-        monkeys.add(monkey5);
+-        // Получить Map имя / информация, голодна ли обезьянка
+-
+-        //Получить Map цвет / количество обезьян данного цвета
+-
+-        //Получить Map цвет / список имен обезьян данного цвета
+-
+-        //Создать компаратор и отсортировать исходный список по весу и имени
+-
+-    }
+-
+-
++    List<Monkey> monkeys = new ArrayList<>();
++    monkeys.add(monkey1);
++    monkeys.add(monkey2);
++    monkeys.add(monkey3);
++    monkeys.add(monkey4);
++    monkeys.add(monkey5);
++    // Получить Map имя / информация, голодна ли обезьянка
++    Map<String, Boolean> namyAndIsHungry = monkeys.stream().collect(
++            Collectors.toMap(monkey -> monkey.getName(), monkey -> monkey.isHungry(), (x, y) -> x)
++    );
++    //Получить Map цвет / количество обезьян данного цвета
++    Map<String, Long> groupByColour = monkeys.stream)
++    .collect(Collectors
++            .groupingBy(monkey -> monkey.getColour(), Collectors
++                    .counting()));
++    //Получить Map цвет / список имен обезьян данного цвета
++    Map<String, List<String>> groupByColourTolist = monkeys.stream().collect(
++            Collectors.groupingBy(
++                    monkey -> monkey.getColour(), Collectors.mapping(monkey -> monkey.getName(), Collectors.toList())
++            ))
++    System.out.println(groupByColourToList);
++    //Создать компаратор и отсортировать исходный список по весу и имени
++    monkeys.stream()
++            .sorted((01, 02) > 01.getWeight() == 02.getWeight() ? 0 : (01.getWeight() < 02.getWeight() ? -1 : 1);
++  }
+ }
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Processor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_11.prac;\n\npublic class Processor {\n    public double getAvgSalaryByDep(Department department) {\n        return 0;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Processor.java b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Processor.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Processor.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Processor.java	(date 1698227674966)
+@@ -1,7 +1,15 @@
+ package org.example._2023_09_11.prac;
+ 
+ public class Processor {
+-    public double getAvgSalaryByDep(Department department) {
+-        return 0;
+-    }
++  Company company = new Company();
++  Department department = new Department("name", 0);
++
++  public void getTestSalary() {
++
++  }
++
++  //  public double getAvgSalaryByDep(Department[] department) {
++//
++//    return 0;
++//  }
+ }
+Index: Summery/src/de/telran/lesson20231020/CollectorExamples.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.lesson20231020;\n\nimport de.telran.lesson20230929.Monkey;\n\nimport java.util.*;\nimport java.util.stream.Collectors;\n\npublic class CollectorExamples {\n\n    public static void main(String[] args) {\n        List<String> names = Arrays.asList(\"Tom\", \"Mary\", \"Jane\", \"Edward\", \"Mary\", \"Tom\");\n\n//        List<String> list = names.stream().filter(s -> s.length() == 4).toList(); - Unmodifieble\n//        List<String> list = names.stream().filter(s -> s.length() == 4).collect(Collectors.toList()); // - Arraylist\n        List<String> list = names.stream().filter(s -> s.length() == 4).collect(Collectors.toCollection(LinkedList::new));\n        System.out.println(list.getClass());\n        list.add(\"Vasua\");\n\n        Set<String> namesSet = names.stream().collect(Collectors.toSet());\n//        Set<String> namesSet = new HashSet<>(names);\n        System.out.println(namesSet);\n\n\n        Map<String, Integer> uniqueNamesCountMap = names.stream().collect(Collectors.toMap(name -> name, name -> 1, Integer::sum));\n        System.out.println(uniqueNamesCountMap);\n\n        Map<String, Boolean> namesStartWithT = names.stream().collect(Collectors.toMap(name -> name, name -> name.startsWith(\"T\"), (x, y) -> x));\n        System.out.println(namesStartWithT);\n\n        // Map<number of letters, number of names>\n        Map<Integer, Integer> lettersCount = names.stream().collect(Collectors.toMap(String::length, name -> 1, Integer::sum));\n        Map<Integer, Long> lettersCount2 = names.stream().collect(Collectors.groupingBy(String::length, Collectors.counting()));\n        System.out.println(lettersCount);\n        System.out.println(lettersCount2);\n\n        // Map<Integer, List<String>>  число букв / список имен с данным числом букв\n        Map<Integer, List<String>> groupByNameLength = names.stream().collect(Collectors.groupingBy(String::length, Collectors.toList()));\n        System.out.println(groupByNameLength);\n\n\n\n\n    }\n\n\n\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Summery/src/de/telran/lesson20231020/CollectorExamples.java b/Summery/src/de/telran/lesson20231020/CollectorExamples.java
+--- a/Summery/src/de/telran/lesson20231020/CollectorExamples.java	(revision a0545b0c7705e3bb93d7d5ac0556d3e2490fa27c)
++++ b/Summery/src/de/telran/lesson20231020/CollectorExamples.java	(date 1697796871916)
+@@ -7,43 +7,33 @@
+ 
+ public class CollectorExamples {
+ 
+-    public static void main(String[] args) {
+-        List<String> names = Arrays.asList("Tom", "Mary", "Jane", "Edward", "Mary", "Tom");
++  public static void main(String[] args) {
++    List<String> names = Arrays.asList("Tom", "Mary", "Jane", "Edward", "Mary", "Tom");
+ 
+ //        List<String> list = names.stream().filter(s -> s.length() == 4).toList(); - Unmodifieble
+ //        List<String> list = names.stream().filter(s -> s.length() == 4).collect(Collectors.toList()); // - Arraylist
+-        List<String> list = names.stream().filter(s -> s.length() == 4).collect(Collectors.toCollection(LinkedList::new));
+-        System.out.println(list.getClass());
+-        list.add("Vasua");
++    List<String> list = names.stream().filter(s -> s.length() == 4).collect(Collectors.toCollection(LinkedList::new));
++    System.out.println(list.getClass());
++    list.add("Vasua");
+ 
+-        Set<String> namesSet = names.stream().collect(Collectors.toSet());
++    Set<String> namesSet = names.stream().collect(Collectors.toSet());
+ //        Set<String> namesSet = new HashSet<>(names);
+-        System.out.println(namesSet);
++    System.out.println(namesSet);
+ 
+ 
+-        Map<String, Integer> uniqueNamesCountMap = names.stream().collect(Collectors.toMap(name -> name, name -> 1, Integer::sum));
+-        System.out.println(uniqueNamesCountMap);
++    Map<String, Integer> uniqueNamesCountMap = names.stream().collect(Collectors.toMap(name -> name, name -> 1, Integer::sum));
++    System.out.println(uniqueNamesCountMap);
+ 
+-        Map<String, Boolean> namesStartWithT = names.stream().collect(Collectors.toMap(name -> name, name -> name.startsWith("T"), (x, y) -> x));
+-        System.out.println(namesStartWithT);
++    Map<String, Boolean> namesStartWithT = names.stream().collect(Collectors.toMap(name -> name, name -> name.startsWith("T"), (x, y) -> x));
++    System.out.println(namesStartWithT);
+ 
+-        // Map<number of letters, number of names>
+-        Map<Integer, Integer> lettersCount = names.stream().collect(Collectors.toMap(String::length, name -> 1, Integer::sum));
+-        Map<Integer, Long> lettersCount2 = names.stream().collect(Collectors.groupingBy(String::length, Collectors.counting()));
+-        System.out.println(lettersCount);
+-        System.out.println(lettersCount2);
++    // Map<number of letters, number of names>
++    Map<Integer, Integer> lettersCount = names.stream().collect(Collectors.toMap(String::length, name -> 1, Integer::sum));
++    Map<Integer, Long> lettersCount2 = names.stream().collect(Collectors.groupingBy(String::length, Collectors.counting()));
++    System.out.println(lettersCount);
++    System.out.println(lettersCount2);
+ 
+-        // Map<Integer, List<String>>  число букв / список имен с данным числом букв
+-        Map<Integer, List<String>> groupByNameLength = names.stream().collect(Collectors.groupingBy(String::length, Collectors.toList()));
+-        System.out.println(groupByNameLength);
+-
+-
+-
+-
+-    }
+-
+-
+-
+-
+-
+-}
++    // Map<Integer, List<String>>  число букв / список имен с данным числом букв
++    Map<Integer, List<String>> groupByNameLength = names.stream().collect(Collectors.groupingBy(String::length, Collectors.toList()));
++    System.out.println(groupByNameLength);
++  }
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Department.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_11.prac;\n\npublic class Department {\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Department.java b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Department.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Department.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Department.java	(date 1698227674967)
+@@ -1,4 +1,42 @@
+ package org.example._2023_09_11.prac;
+ 
++
+ public class Department {
+-}
++  private  String depName;
++  private  int depId;
++  private Employee employees[] = {
++          new Employee("Name1", "Surname1", 10000.0, 01),
++          new Employee("Name2", "Surname2", 20000.0, 01),
++          new Employee("Name3", "Surname3", 30000.0, 01),
++          new Employee("Name4", "Surname4", 40000.0, 02),
++          new Employee("Name5", "Surname5", 50000.0, 02),
++          new Employee("Name6", "Surname6", 10000.0, 02),
++          new Employee("Name7", "Surname7", 20000.0, 03),
++          new Employee("Name8", "Surname8", 30000.0, 03),
++          new Employee("Name9", "Surname9", 40000.0, 03),
++          new Employee("Name10", "Surname10", 5000.0, 04),
++          new Employee("Name11", "Surname11", 50000.0, 04),
++          new Employee("Name12", "Surname12", 504500.0, 04),
++  };
++
++  public String getDepName() {
++    return depName;
++  }
++
++  public void setDepName(String depName) {
++    this.depName = depName;
++  }
++
++  public int getDepId() {
++    return depId;
++  }
++
++  public void setDepId(int depId) {
++    this.depId = depId;
++  }
++
++  public Department(String depName, int depId) {
++    this.depName = depName;
++    this.depId = depId;
++  }
++}
+\ No newline at end of file
+Index: Summery/src/de/telran/lesson20230922/IteratorExamples.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.lesson20230922;\n\nimport java.util.ArrayList;\nimport java.util.Iterator;\nimport java.util.List;\nimport java.util.ListIterator;\n\npublic class IteratorExamples {\n\n    public static void main(String[] args) {\n\n        List<String> names = new ArrayList<>();\n        names.add(\"Tom\");\n        names.add(\"Jenny\");\n        names.add(\"Mary\");\n        names.add(\"Jack\");\n\n        Iterator<String> iterator = names.iterator();\n        while (iterator.hasNext()){\n            String current = iterator.next();\n            System.out.println(current);\n            if (current.equals(\"Mary\")) iterator.remove();\n        }\n\n        System.out.println(\"After remove operation:\");\n        iterator = names.iterator();\n        while (iterator.hasNext()){\n            String current = iterator.next();\n            System.out.println(current);\n        }\n\n        for (String s : names) {\n            System.out.println(s);\n        }\n\n        List<Integer> integers = new ArrayList<>();\n        integers.add(100);\n        integers.add(200);\n        integers.add(300);\n        integers.add(400);\n        integers.add(500);\n        integers.add(300);\n        integers.add(300);\n\n        ListIterator<Integer> listIterator = integers.listIterator();\n        while (listIterator.hasNext()){\n            Integer next = listIterator.next();\n            if (next == 300) {\n                listIterator.previous();\n                listIterator.previous();\n                listIterator.set(3000);\n                listIterator.next();\n                listIterator.next();\n//                break;\n            }\n        }\n\n        for (Integer i : integers) {\n            System.out.println(i);\n        }\n\n\n\n\n    }\n\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Summery/src/de/telran/lesson20230922/IteratorExamples.java b/Summery/src/de/telran/lesson20230922/IteratorExamples.java
+--- a/Summery/src/de/telran/lesson20230922/IteratorExamples.java	(revision a0545b0c7705e3bb93d7d5ac0556d3e2490fa27c)
++++ b/Summery/src/de/telran/lesson20230922/IteratorExamples.java	(date 1697791479946)
+@@ -6,64 +6,52 @@
+ import java.util.ListIterator;
+ 
+ public class IteratorExamples {
+-
+-    public static void main(String[] args) {
++  public static void main(String[] args) {
+ 
+-        List<String> names = new ArrayList<>();
+-        names.add("Tom");
+-        names.add("Jenny");
+-        names.add("Mary");
+-        names.add("Jack");
++    List<String> names = new ArrayList<>();
++    names.add("Tom");
++    names.add("Jenny");
++    names.add("Mary");
++    names.add("Jack");
+ 
+-        Iterator<String> iterator = names.iterator();
+-        while (iterator.hasNext()){
+-            String current = iterator.next();
+-            System.out.println(current);
+-            if (current.equals("Mary")) iterator.remove();
+-        }
++    Iterator<String> iterator = names.iterator();
++    while (iterator.hasNext()) {
++      String current = iterator.next();
++      System.out.println(current);
++      if (current.equals("Mary")) iterator.remove();
++    }
+ 
+-        System.out.println("After remove operation:");
+-        iterator = names.iterator();
+-        while (iterator.hasNext()){
+-            String current = iterator.next();
+-            System.out.println(current);
+-        }
+-
+-        for (String s : names) {
+-            System.out.println(s);
+-        }
++    System.out.println("After remove operation:");
++    iterator = names.iterator();
++    while (iterator.hasNext()) {
++      String current = iterator.next();
++      System.out.println(current);
++    }
++    for (String s : names) {
++      System.out.println(s);
++    }
+ 
+-        List<Integer> integers = new ArrayList<>();
+-        integers.add(100);
+-        integers.add(200);
+-        integers.add(300);
+-        integers.add(400);
+-        integers.add(500);
+-        integers.add(300);
+-        integers.add(300);
++    List<Integer> integers = new ArrayList<>();
++    integers.add(100);
++    integers.add(200);
++    integers.add(300);
++    integers.add(400);
++    integers.add(500);
++    integers.add(500);
++    integers.add(300);
++    integers.add(300);
+ 
+-        ListIterator<Integer> listIterator = integers.listIterator();
+-        while (listIterator.hasNext()){
+-            Integer next = listIterator.next();
+-            if (next == 300) {
+-                listIterator.previous();
+-                listIterator.previous();
+-                listIterator.set(3000);
+-                listIterator.next();
+-                listIterator.next();
+-//                break;
+-            }
+-        }
+-
+-        for (Integer i : integers) {
+-            System.out.println(i);
+-        }
+-
+-
+-
+-
+-    }
+-
+-
+-
++    ListIterator<Integer> listIterator = integers.listIterator();
++    while (listIterator.hasNext()) {
++        Integer next = listIterator.next();
++        if (next == 300) {
++          listIterator.previous();
++          listIterator.set(3000);
++//          break;
++        }
++      }
++    for (Integer i : integers) {
++      System.out.println(i);
++    }
++  }
+ }
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_13/JC1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_13;\n\npublic class JC1 {\n    public static void main(String[] args) {\n        int a = 0;\n        int b = 0;\n\n        int[] q = {98, 7, 9, 87};\n        q[0] = 777;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC1.java b/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC1.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC1.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC1.java	(date 1698227674969)
+@@ -1,11 +1,9 @@
+ package org.example._2023_09_13;
+ 
+ public class JC1 {
+-    public static void main(String[] args) {
+-        int a = 0;
+-        int b = 0;
+-
+-        int[] q = {98, 7, 9, 87};
+-        q[0] = 777;
+-    }
++  public static void main(String[] args) {
++    int a = 0;
++    int b = 0;
++    int[] q = {5, 7, 8};
++  }
+ }
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_13/JC3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_13;\n\nimport java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.List;\n\npublic class JC3 {\n    public static void main(String[] args) {\n        String[] strings = {\"Collection\", \"Hierarchy\", \"in\", \"Java\", \"defines\", \"the\", \"relationships\"};\n\n        for (int i = 0; i < strings.length; i++) {\n            String el = strings[i];\n            if(el.toLowerCase().startsWith(\"h\")) {\n                System.out.println(el);\n            }\n        }\n        System.out.println(Arrays.toString(strings));\n\n        List<String> list = new ArrayList<>();\n        list.add(\"Collection\");\n        list.add(\"Hierarchy\");\n        list.add(\"in\");\n        list.add(\"Java\");\n        list.add(\"defines\");\n        list.add(\"the\");\n        list.add(\"relationships\");\n\n        for (int i = 0; i < list.size(); i++) {\n            String el = list.get(i);\n            if(el.toLowerCase().startsWith(\"h\")) {\n                System.out.println(el);\n            }\n        }\n    }\n\n    void doTest(List<String> list) {\n        System.out.println(list);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC3.java b/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC3.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC3.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC3.java	(date 1698227674991)
+@@ -5,35 +5,17 @@
+ import java.util.List;
+ 
+ public class JC3 {
+-    public static void main(String[] args) {
+-        String[] strings = {"Collection", "Hierarchy", "in", "Java", "defines", "the", "relationships"};
++  public static void main(String[] args) {
++
++    List<String> list = new ArrayList<>();
++
++    String[] strings = {"Contents", "Home", "bin", "java -", "javaagent:", "/private/", "var"};
+ 
+-        for (int i = 0; i < strings.length; i++) {
+-            String el = strings[i];
+-            if(el.toLowerCase().startsWith("h")) {
+-                System.out.println(el);
+-            }
+-        }
+-        System.out.println(Arrays.toString(strings));
++    for (int i = 0; i < strings.length; i++) {
++      System.out.println(strings[i]);
++    }
++    System.out.println(Arrays.toString(strings));
+ 
+-        List<String> list = new ArrayList<>();
+-        list.add("Collection");
+-        list.add("Hierarchy");
+-        list.add("in");
+-        list.add("Java");
+-        list.add("defines");
+-        list.add("the");
+-        list.add("relationships");
+ 
+-        for (int i = 0; i < list.size(); i++) {
+-            String el = list.get(i);
+-            if(el.toLowerCase().startsWith("h")) {
+-                System.out.println(el);
+-            }
+-        }
+-    }
+-
+-    void doTest(List<String> list) {
+-        System.out.println(list);
+-    }
++  }
+ }
+Index: Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Client.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.bank.entity;\n\nimport lombok.*;\n\nimport java.time.LocalDate;\nimport java.util.UUID;\n\n@Builder\n@AllArgsConstructor\n@Data\npublic class Client {\n    private final UUID id = UUID.randomUUID();\n    private String firstName;\n    private String lastName;\n    private int status;\n    private String taxCode;\n    private String email;\n    private String address;\n    private String phone;\n    private LocalDate createIt;\n    private Manager manager;\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Client.java b/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Client.java
+--- a/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Client.java	(revision 8a27c82e49e7d4ed113f13cd8ab00bcc84fffde8)
++++ b/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Client.java	(date 1697791479948)
+@@ -2,14 +2,17 @@
+ 
+ import lombok.*;
+ 
++import java.net.Proxy;
+ import java.time.LocalDate;
+ import java.util.UUID;
+ 
++@Getter
++@Setter
+ @Builder
+ @AllArgsConstructor
+ @Data
+ public class Client {
+-    private final UUID id = UUID.randomUUID();
++    private UUID id;
+     private String firstName;
+     private String lastName;
+     private int status;
+@@ -18,6 +21,5 @@
+     private String address;
+     private String phone;
+     private LocalDate createIt;
+-    private Manager manager;
+ 
+ }
+Index: Java-prof-300523-me-pract/src/test/java/de/telran/bank/entity/ManagerTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.bank.entity;\n\nimport org.junit.jupiter.api.Assertions;\nimport org.junit.jupiter.api.Test;\n\nimport java.time.LocalDate;\nimport java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.Collections;\nimport java.util.List;\n\nimport static org.junit.jupiter.api.Assertions.*;\n\nclass ManagerTest {\n    @Test\n    public void testCreateManagerToClient() {\n        Client client1 = Client.builder()\n                .address(\"TestAdress\")\n                .phone(\"+1111111111111\")\n                .email(\"test@test.com\")\n                .firstName(\"Miron\")\n                .lastName(\"Ivanov\")\n                .status(1)\n                .createIt(LocalDate.now())\n                .build();\n        Client client2 = Client.builder()\n                .address(\"TestAdress2\")\n                .phone(\"+2222222222\")\n                .email(\"test@test.com\")\n                .firstName(\"Elena\")\n                .lastName(\"Petrova\")\n                .status(1)\n                .createIt(LocalDate.now())\n                .build();\n\n        List<Client> expClients =  Arrays.asList(client1, client2);\n\n        Manager testManager = new Manager(\"Mikle\", \"Lunin\", 1, LocalDate.now(), LocalDate.now(), expClients);\n//        testManager.getClients().add(client1);\n//        testManager.getClients().add(client2);\n\n        Assertions.assertEquals(2, testManager.getClients().size());\n        Assertions.assertFalse(testManager.getId().toString().isEmpty());\n    }\n\n\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-prof-300523-me-pract/src/test/java/de/telran/bank/entity/ManagerTest.java b/Java-prof-300523-me-pract/src/test/java/de/telran/bank/entity/ManagerTest.java
+--- a/Java-prof-300523-me-pract/src/test/java/de/telran/bank/entity/ManagerTest.java	(revision 8a27c82e49e7d4ed113f13cd8ab00bcc84fffde8)
++++ b/Java-prof-300523-me-pract/src/test/java/de/telran/bank/entity/ManagerTest.java	(date 1697791479951)
+@@ -1,47 +1,58 @@
+ package de.telran.bank.entity;
+ 
++import lombok.Builder;
++import lombok.Data;
+ import org.junit.jupiter.api.Assertions;
+ import org.junit.jupiter.api.Test;
+ 
+ import java.time.LocalDate;
+ import java.util.ArrayList;
+-import java.util.Arrays;
+-import java.util.Collections;
+-import java.util.List;
++import java.util.function.BooleanSupplier;
+ 
+ import static org.junit.jupiter.api.Assertions.*;
+ 
++
++
+ class ManagerTest {
+-    @Test
+-    public void testCreateManagerToClient() {
+-        Client client1 = Client.builder()
+-                .address("TestAdress")
+-                .phone("+1111111111111")
+-                .email("test@test.com")
+-                .firstName("Miron")
+-                .lastName("Ivanov")
+-                .status(1)
+-                .createIt(LocalDate.now())
+-                .build();
+-        Client client2 = Client.builder()
+-                .address("TestAdress2")
+-                .phone("+2222222222")
+-                .email("test@test.com")
+-                .firstName("Elena")
+-                .lastName("Petrova")
+-                .status(1)
+-                .createIt(LocalDate.now())
+-                .build();
+-
+-        List<Client> expClients =  Arrays.asList(client1, client2);
+-
+-        Manager testManager = new Manager("Mikle", "Lunin", 1, LocalDate.now(), LocalDate.now(), expClients);
+-//        testManager.getClients().add(client1);
+-//        testManager.getClients().add(client2);
+-
+-        Assertions.assertEquals(2, testManager.getClients().size());
+-        Assertions.assertFalse(testManager.getId().toString().isEmpty());
+-    }
+-
++//  @Test
++//  public void testCreateManagerToClient(){
++//
++//    Client client = Client.builder()
++//            .address("TestAdress")
++//            .phone("+4967553800")
++//            .email("vlad@mail.ru")
++//            .firstName("Miron")
++//            . lastName("Ivanov")
++//            .status(1)
++//            .createIt(LocalDate.now())
++//            .build();
++//    Client client2 = Client.builder()
++//            .address("TestAdress2")
++//            .phone("+4967553801")
++//            .email("vlad@mail.com")
++//            .firstName("Vasilii")
++//            . lastName("Petrov")
++//            .status(1)
++//            .createIt(LocalDate.now())
++//            .build();
++//
++//    Manager testManager = new Manager(
++//            "Mike",
++//            "Vasovskiy",
++//            1,
++//            LocalDate.now(),
++//            LocalDate.now(),
++//            new ArrayList<>()
++//    );
++//
++//    testManager.getClients().add(client);
++//    testManager.getClients().add(client2);
++//
++//    Assertions.assertEquals(2, testManager.getClients().size());
++//    Assertions.assertFalse(testManager.getId().toString().isEmpty());
++//
++//
++//
++//  }
+ 
+ }
+\ No newline at end of file
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_18/TaskiEx.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_18;\n\nimport java.util.HashMap;\nimport java.util.Map;\nimport java.util.TreeMap;\n\npublic class TaskiEx {\n    //Переберите все ключи и значения в HashMap и TreeMap и выведите их на экран.\n    public void iterateMap(HashMap<Integer, String> hashMap, TreeMap<Integer, String>treeMap) {\n//        for ( : hashMap) {\n//        }\n//\n//        for ( : treeMap) {\n//        }\n    }\n\n    public void iterateMap1() {\n        //HP and TM\n//        for ( : hashMap) {\n//        }\n//\n//        for ( : treeMap) {\n//        }\n    }\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_18/TaskiEx.java b/Michail_Lessons/src/main/java/org/example/_2023_09_18/TaskiEx.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_18/TaskiEx.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_18/TaskiEx.java	(date 1698227675037)
+@@ -5,23 +5,7 @@
+ import java.util.TreeMap;
+ 
+ public class TaskiEx {
+-    //Переберите все ключи и значения в HashMap и TreeMap и выведите их на экран.
+-    public void iterateMap(HashMap<Integer, String> hashMap, TreeMap<Integer, String>treeMap) {
+-//        for ( : hashMap) {
+-//        }
+-//
+-//        for ( : treeMap) {
+-//        }
+-    }
+-
+-    public void iterateMap1() {
+-        //HP and TM
+-//        for ( : hashMap) {
+-//        }
+-//
+-//        for ( : treeMap) {
+-//        }
+-    }
++//    Переберите только значения в HashMap и TreeMap и найдите их среднее значение.
+ 
+ 
+ }
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_13/JC2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_13;\n\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class JC2 {\n    public static void main(String[] args) {\n        List<Integer> list = new ArrayList<>(1_000_000);\n        list.add(5);\n        list.add(25);\n        list.add(53);\n        list.add(54);\n        list.add(555);\n\n        System.out.println(list.contains(66));\n        System.out.println(list.get(0));\n        System.out.println(list);\n\n        for (int i = 0; i < list.size(); i++) {\n            System.out.println(list.get(i));\n        }\n    }\n}\n\nclass S {\n    Object[] objects;\n\n    void add(Object o) {\n\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC2.java b/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC2.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC2.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC2.java	(date 1698227675059)
+@@ -4,28 +4,19 @@
+ import java.util.List;
+ 
+ public class JC2 {
+-    public static void main(String[] args) {
+-        List<Integer> list = new ArrayList<>(1_000_000);
+-        list.add(5);
+-        list.add(25);
+-        list.add(53);
+-        list.add(54);
+-        list.add(555);
++  public static void main(String[] args) {
++    List<Integer> list = new ArrayList<>();
++    list.add(5);
++    list.add(25);
++    list.add(35);
++    list.add(45);
++    list.add(555);
+ 
+-        System.out.println(list.contains(66));
+-        System.out.println(list.get(0));
+-        System.out.println(list);
+-
+-        for (int i = 0; i < list.size(); i++) {
+-            System.out.println(list.get(i));
+-        }
+-    }
+-}
++//    System.out.println(list.contains(66));
++//    System.out.println(list.get(0));
++//    System.out.println(list);
+ 
+-class S {
+-    Object[] objects;
+-
+-    void add(Object o) {
++    System.out.println(new ExEx());
+ 
+-    }
++  }
+ }
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_18/MapEx3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_18;\n\nimport java.security.cert.X509CertSelector;\nimport java.util.Arrays;\nimport java.util.HashMap;\nimport java.util.List;\nimport java.util.Map;\n\npublic class MapEx3 {\n    public static void main(String[] args) {\n        List<String> list1 = Arrays.asList(\"Q\", \"W\", \"E\");\n        Map<Integer, SalesManager> listMap = new HashMap<>();\n\n        System.out.println(listMap);\n        SalesManager[] salesManagers;\n        List<SalesManager> list;\n        X509CertSelector[] x509CertSelectors;\n    }\n}\n\nclass SalesManager {\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_18/MapEx3.java b/Michail_Lessons/src/main/java/org/example/_2023_09_18/MapEx3.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_18/MapEx3.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_18/MapEx3.java	(date 1698227675091)
+@@ -8,16 +8,7 @@
+ 
+ public class MapEx3 {
+     public static void main(String[] args) {
+-        List<String> list1 = Arrays.asList("Q", "W", "E");
+-        Map<Integer, SalesManager> listMap = new HashMap<>();
+ 
+-        System.out.println(listMap);
+-        SalesManager[] salesManagers;
+-        List<SalesManager> list;
+-        X509CertSelector[] x509CertSelectors;
+     }
+ }
+ 
+-class SalesManager {
+-
+-}
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_25/IteratorTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_25;\n\npublic class IteratorTest {\n    private static boolean isPalindrome(String word) {\n        return true;\n    }\n\n    public static void main(String[] args) {\n        String palindrome = \"MADAM\";\n        String notPalindrome = \"YESTERDAY\";\n\n        System.out.println(\"MADAM: \" + isPalindrome(palindrome));\n        System.out.println(\"YESTERDAY: \" + isPalindrome(palindrome));\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_25/IteratorTest.java b/Michail_Lessons/src/main/java/org/example/_2023_09_25/IteratorTest.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_25/IteratorTest.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_25/IteratorTest.java	(date 1698227675110)
+@@ -1,15 +1,38 @@
+ package org.example._2023_09_25;
+ 
++import java.util.ArrayList;
++import java.util.List;
++import java.util.ListIterator;
++
+ public class IteratorTest {
+-    private static boolean isPalindrome(String word) {
+-        return true;
+-    }
++  private static boolean isPalindrome(String word) {
++    return true;
++  }
+ 
+-    public static void main(String[] args) {
+-        String palindrome = "MADAM";
+-        String notPalindrome = "YESTERDAY";
++  public static void main(String[] args) {
++    String palindrome = "MADAM";
++    String notPalindrome = "YESTERDAY";
+ 
+-        System.out.println("MADAM: " + isPalindrome(palindrome));
+-        System.out.println("YESTERDAY: " + isPalindrome(palindrome));
+-    }
++    System.out.println("MADAM: " + isPalindrome(palindrome));
++    System.out.println("YESTERDAY: " + isPalindrome(palindrome));
++
++
++  }
++
++//  private static boolean palindrome(String word) {
++//    List<Character> pal = new ArrayList<>();
++//    for (int i = 0; i < word.length(); i++) {
++//      pal.add(word.charAt(i));
++//    }
++//    ListIterator<Character> listForward = pal.listIterator();
++//    ListIterator<Character> listBack = pal.listIterator(pal.size());
++//
++////    while (listForward.hasNext() && listBack.hasPrevious()) {
++////      char start = listForward.next();
++////      char end = listBack.previous();
++////      if (start)
++////
++////    }
++//
++//  }
+ }
+Index: Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Manager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.bank.entity;\n\nimport lombok.Builder;\n\nimport java.time.LocalDate;\nimport java.util.ArrayList;\nimport java.util.List;\nimport java.util.Objects;\nimport java.util.UUID;\n\npublic class Manager {\n    private final UUID id = UUID.randomUUID();\n    private String firstName;\n    private String lastName;\n    private int status;\n    private LocalDate createIt;\n    private LocalDate updateIt;\n    private List<Client> clients = new ArrayList<>();\n\n    public Manager() {\n    }\n\n    public Manager(String firstName, String lastName, int status, LocalDate createIt, LocalDate updateIt, List<Client> clients) {\n        this.firstName = firstName;\n        this.lastName = lastName;\n        this.status = status;\n        this.createIt = createIt;\n        this.updateIt = updateIt;\n        this.clients = clients;\n    }\n\n    public UUID getId() {\n        return id;\n    }\n\n    public String getFirstName() {\n        return firstName;\n    }\n\n    public String getLastName() {\n        return lastName;\n    }\n\n    public int getStatus() {\n        return status;\n    }\n\n    public LocalDate getCreateIt() {\n        return createIt;\n    }\n\n    public LocalDate getUpdateIt() {\n        return updateIt;\n    }\n\n    public List<Client> getClients() {\n        return clients;\n    }\n\n    public void setFirstName(String firstName) {\n        this.firstName = firstName;\n    }\n\n    public void setLastName(String lastName) {\n        this.lastName = lastName;\n    }\n\n    public void setStatus(int status) {\n        this.status = status;\n    }\n\n    public void setCreateIt(LocalDate createIt) {\n        this.createIt = createIt;\n    }\n\n    public void setUpdateIt(LocalDate updateIt) {\n        this.updateIt = updateIt;\n    }\n\n    public void setClients(List<Client> clients) {\n        this.clients = clients;\n    }\n\n    @Override\n    public String toString() {\n        return \"Manager{\" +\n                \"id=\" + id +\n                \", firstName='\" + firstName + '\\'' +\n                \", lastName='\" + lastName + '\\'' +\n                \", status=\" + status +\n                \", createIt=\" + createIt +\n                \", updateIt=\" + updateIt +\n                \", clients=\" + clients +\n                '}';\n    }\n\n    @Override\n    public boolean equals(Object o) {\n        if (this == o) return true;\n        if (o == null || getClass() != o.getClass()) return false;\n        Manager manager = (Manager) o;\n        return status == manager.status && Objects.equals(id, manager.id) && Objects.equals(firstName, manager.firstName)\n                && Objects.equals(lastName, manager.lastName) && Objects.equals(createIt, manager.createIt) &&\n                Objects.equals(updateIt, manager.updateIt) && Objects.equals(clients, manager.clients);\n    }\n\n    @Override\n    public int hashCode() {\n        return Objects.hash(id, firstName, lastName, status, createIt, updateIt, clients);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Manager.java b/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Manager.java
+--- a/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Manager.java	(revision 8a27c82e49e7d4ed113f13cd8ab00bcc84fffde8)
++++ b/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Manager.java	(date 1697791479990)
+@@ -3,19 +3,18 @@
+ import lombok.Builder;
+ 
+ import java.time.LocalDate;
+-import java.util.ArrayList;
+ import java.util.List;
+ import java.util.Objects;
+ import java.util.UUID;
+ 
+ public class Manager {
+-    private final UUID id = UUID.randomUUID();
++    private UUID id = UUID.randomUUID();
+     private String firstName;
+     private String lastName;
+     private int status;
+     private LocalDate createIt;
+     private LocalDate updateIt;
+-    private List<Client> clients = new ArrayList<>();
++    private List<Client> clients;
+ 
+     public Manager() {
+     }
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_25/taski.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>*****Задание 1. Сериализация списка студентов\nОписание: Создайте класс Student с полями name\n(имя студента), age (возраст) и grade (оценка).\nРеализуйте сериализацию и десериализацию списка студентов.\n\nТребования:\nИспользуйте потоки для обработки данных.\nРеализуйте метод saveStudentsToFile(List<Student> students, String filename), который будет сохранять список студентов в файл.\nРеализуйте метод List<Student> loadStudentsFromFile(String filename), который будет читать студентов из файла.\n\n\n*****Задание 2. Фильтрация студентов по оценке\nОписание: Добавьте функционал, который позволит фильтровать студентов с оценкой выше определенного значения и сохранять их в отдельный файл.\n\nТребования:\nРеализуйте метод filterAndSaveStudentsByGrade(List<Student> students, double gradeThreshold, String filename), который будет сохранять студентов с оценкой выше gradeThreshold в файл.\n\n\n*****Задание 3. Средний балл студентов\nОписание: Напишите метод, который вычисляет средний балл всех студентов из файла.\n\nТребования:\nРеализуйте метод double calculateAverageGrade(String filename), который возвращает средний балл студентов.
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_25/taski.txt b/Michail_Lessons/src/main/java/org/example/_2023_10_25/taski.txt
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_25/taski.txt	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_25/taski.txt	(date 1698227783172)
+@@ -1,3 +1,4 @@
++
+ *****Задание 1. Сериализация списка студентов
+ Описание: Создайте класс Student с полями name
+ (имя студента), age (возраст) и grade (оценка).
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE4.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE4.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE4.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE4.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE4.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE4.java	(date 1698227674994)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16.generics;
++package org.example._2023_10_16.generics.generics;
+ 
+ import java.util.ArrayList;
+ import java.util.List;
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Team.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Team.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Team.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Team.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Team.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Team.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Team.java	(date 1698227675005)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16.generics.taskEx1;
++package org.example._2023_10_16.generics.generics.taskEx1;
+ 
+ import java.util.ArrayList;
+ import java.util.List;
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_27/TaskManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_09_27;\n\nimport java.util.HashMap;\nimport java.util.Map;\nimport java.util.Random;\n\npublic class TaskManager {\n    public static void main(String[] args) {\n        Random random = new Random();\n        Map<String, Integer> map = new HashMap<>();\n        map.put(\"Valdislav\", random.nextInt(6));\n        map.put(\"Tatiana\", random.nextInt(6));\n        map.put(\"Vasily\", random.nextInt(6));\n        map.put(\"Bogdan\", random.nextInt(6));\n        map.put(\"Ivan\", random.nextInt(6));\n        map.put(\"Viktor\", random.nextInt(6));\n        map.put(\"Olexander\", random.nextInt(6));\n        map.put(\"Walter\", random.nextInt(6));\n        map.put(\"Dmitry\", random.nextInt(6));\n        map.put(\"Ruslan\", random.nextInt(6));\n        map.put(\"Batyr\", random.nextInt(6));\n        map.put(\"Lidiya\", random.nextInt(6));\n        map.put(\"Alexey\", random.nextInt(6));\n\n        System.out.println(map);\n\n        /**\n         *{Walter=2,\n         * Dmitry=4,\n         * Batyr=3,\n         * Vasily=1,\n         * Viktor=3,\n         * Valdislav=5,\n         * Lidiya=3,\n         * Olexander=1,\n         * Tatiana=3,\n         * Ivan=5,\n         * Bogdan=3,\n         * Ruslan=3,\n         * Alexey=1}\n         * 10.00-11.15\n         */\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_27/TaskManager.java b/Michail_Lessons/src/main/java/org/example/_2023_09_27/TaskManager.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_09_27/TaskManager.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_27/TaskManager.java	(date 1698227675138)
+@@ -24,7 +24,7 @@
+ 
+         System.out.println(map);
+ 
+-        /**
++        /*
+          *{Walter=2,
+          * Dmitry=4,
+          * Batyr=3,
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/WaterSource.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/WaterSource.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/WaterSource.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/WaterSource.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/WaterSource.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/WaterSource.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/WaterSource.java	(date 1698227674947)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16.generics;
++package org.example._2023_10_16.generics.generics;
+ 
+ public class WaterSource {
+     private double liters;
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Participant.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Participant.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Participant.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Participant.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Participant.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Participant.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Participant.java	(date 1698227675049)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16.generics.taskEx1;
++package org.example._2023_10_16.generics.generics.taskEx1;
+ 
+ public abstract class Participant {
+     private String name;
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE2.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE2.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE2.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE2.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE2.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE2.java	(date 1698227675062)
+@@ -1,6 +1,4 @@
+-package org.example._2023_10_16.generics;
+-
+-import java.util.Map;
++package org.example._2023_10_16.generics.generics;
+ 
+ public class GE2 {
+     public static void main(String[] args) {
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE3.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE3.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE3.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE3.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE3.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE3.java	(date 1698227674972)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16.generics;
++package org.example._2023_10_16.generics.generics;
+ 
+ public class GE3 {
+     public static void main(String[] args) {
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/StatEx.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/StatEx.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/StatEx.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/StatEx.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/StatEx.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/StatEx.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/StatEx.java	(date 1698227674981)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16;
++package org.example._2023_10_16.generics;
+ 
+ public class StatEx {
+     static int st = 0;
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/S1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_10_04.streams1;\n\nimport java.util.Arrays;\nimport java.util.List;\nimport java.util.stream.Stream;\n\npublic class S1 {\n    public static boolean get(int i) {\n        return i % 2 == 0;\n    }\n\n    public static void main(String[] args) {\n        List<Integer> list = Arrays.asList(32, 1, 6, 5, 4, 9, 9, 9, 9, 87);\n        int[] arr = {65, 4, 32, 19, 8, 7};\n\n        //list.stream(); for List\n        //Arrays.stream(arr); for arrays\n        //Create Stream -> intermediate methods -> terminal methods\n        List<Integer> list1 = list.stream() //32, 1, 6, 5, 4, 9, 87\n                .filter(digit -> digit % 2 == 0) //32, 6, 4\n                .map(el -> el * 10) // 320, 60, 40\n                .toList();\n        // System.out.println(list1);\n\n        List<Integer> list2 = list.stream() //32, 1, 6, 5, 4, 9, 87\n                .filter(digit -> digit % 2 == 0) //32, 6, 4\n                .map(el -> {\n                    if (el < 10) {\n                        el = el * 11;\n                    }\n                    return el;\n                })\n                .toList();\n        //   System.out.println(list1);\n\n        List<String> list3 = list.stream() //32, 1, 6, 5, 4, 9, 87\n                .filter(S1::get) //32, 6, 4\n                .map(String::valueOf) // 320, 60, 40\n                .toList();\n        //  System.out.println(list1);\n\n        Stream<Integer> st = Stream.of(32, 1, 6, 5, 4, 9, 87); // == list.stream()\n\n        List<Integer> list4 = list.stream()\n                .distinct()\n                .toList();\n        //   System.out.println(list4);\n\n        List<Integer> list5 = list.stream()\n                .filter(el -> el % 2 == 1)\n                .sorted()\n                .distinct()\n                .toList();\n        System.out.println(list5);\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/S1.java b/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/S1.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/S1.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/S1.java	(date 1698227675140)
+@@ -31,13 +31,13 @@
+                     return el;
+                 })
+                 .toList();
+-        //   System.out.println(list1);
++        //   System.out.println(list2);
+ 
+         List<String> list3 = list.stream() //32, 1, 6, 5, 4, 9, 87
+                 .filter(S1::get) //32, 6, 4
+                 .map(String::valueOf) // 320, 60, 40
+                 .toList();
+-        //  System.out.println(list1);
++        //  System.out.println(list3);
+ 
+         Stream<Integer> st = Stream.of(32, 1, 6, 5, 4, 9, 87); // == list.stream()
+ 
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx/Calc.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx/Calc.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx/Calc.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx/Calc.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx/Calc.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx/Calc.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx/Calc.java	(date 1698227675099)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16.generics.taskEx;
++package org.example._2023_10_16.generics.generics.taskEx;
+ 
+ public class Calc<T extends Number> {
+     private T value;
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE1.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE1.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE1.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE1.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE1.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE1.java	(date 1698227675029)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16.generics;
++package org.example._2023_10_16.generics.generics;
+ 
+ import java.util.ArrayList;
+ import java.util.List;
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Schoolar.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Schoolar.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Schoolar.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Schoolar.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Schoolar.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Schoolar.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Schoolar.java	(date 1698227675040)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16.generics.taskEx1;
++package org.example._2023_10_16.generics.generics.taskEx1;
+ 
+ public class Schoolar extends Participant{
+     public Schoolar(String name, int age) {
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Main.java b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Main.java
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Main.java
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Main.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Main.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Main.java	(date 1698227675072)
+@@ -1,4 +1,4 @@
+-package org.example._2023_10_16.generics.taskEx1;
++package org.example._2023_10_16.generics.generics.taskEx1;
+ 
+ import com.github.javafaker.Faker;
+ 
+Index: Michail_Lessons/.idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/.idea/encodings.xml b/Michail_Lessons/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1698227675114)
++++ b/Michail_Lessons/.idea/encodings.xml	(date 1698227675114)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_25/ForTypes.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_25/ForTypes.java b/Michail_Lessons/src/main/java/org/example/_2023_09_25/ForTypes.java
+new file mode 100644
+--- /dev/null	(date 1698227675119)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_25/ForTypes.java	(date 1698227675119)
+@@ -0,0 +1,33 @@
++package org.example._2023_09_25;
++
++import lombok.AllArgsConstructor;
++import lombok.Data;
++
++import java.util.Objects;
++
++@Data
++@AllArgsConstructor
++public class ForTypes {
++
++  String name;
++  int age;
++  boolean isWorker;
++  char gender;
++
++  @Override
++  public boolean equals(Object o) {
++    if (this == o) return true;
++    if (o == null || getClass() != o.getClass()) return false;
++    ForTypes forTypes = (ForTypes) o;
++    return age == forTypes.age
++            && isWorker == forTypes.isWorker
++            && gender == forTypes.gender
++            && Objects.equals(name, forTypes.name);
++  }
++
++  @Override
++  public int hashCode() {
++    return Objects.hash(name, age, isWorker, gender);
++  }
++}
++
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/TaskiWork.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/TaskiWork.java b/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/TaskiWork.java
+new file mode 100644
+--- /dev/null	(date 1698227675108)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/TaskiWork.java	(date 1698227675108)
+@@ -0,0 +1,8 @@
++package org.example._2023_10_04.streams1;
++
++import java.util.Arrays;
++import java.util.List;
++
++public class TaskiWork {
++
++}
+Index: Michail_Lessons/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/.idea/vcs.xml b/Michail_Lessons/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1698227675112)
++++ b/Michail_Lessons/.idea/vcs.xml	(date 1698227675112)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Michail_Lessons/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/.idea/.gitignore b/Michail_Lessons/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1698227675128)
++++ b/Michail_Lessons/.idea/.gitignore	(date 1698227675128)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Employee.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Employee.java b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Employee.java
+new file mode 100644
+--- /dev/null	(date 1698227675130)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Employee.java	(date 1698227675130)
+@@ -0,0 +1,43 @@
++package org.example._2023_09_11.prac;
++
++public class Employee {
++
++  private String name;
++  private String surName;
++  private double salary;
++  public Department department;
++  private int depId;
++
++
++  public String getName() {
++    return name;
++  }
++
++  public void setName(String name) {
++    this.name = name;
++  }
++
++  public String getSurName() {
++    return surName;
++  }
++
++  public void setSurName(String surName) {
++    this.surName = surName;
++  }
++
++  public double getSalary() {
++    return salary;
++  }
++
++  public void setSalary(double salary) {
++    this.salary = salary;
++  }
++
++  public Employee(String name, String surName, double salary, int depId) {
++    this.name = name;
++    this.surName = surName;
++    this.salary = salary;
++    this.depId = depId;
++    this.department = new Department("name", 0);
++  }
++}
+\ No newline at end of file
+Index: Michail_Lessons/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/.idea/misc.xml b/Michail_Lessons/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1698227675123)
++++ b/Michail_Lessons/.idea/misc.xml	(date 1698227675123)
+@@ -0,0 +1,11 @@
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+Index: Michail_Lessons/.idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/.idea/uiDesigner.xml b/Michail_Lessons/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1698227675126)
++++ b/Michail_Lessons/.idea/uiDesigner.xml	(date 1698227675126)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: Michail_Lessons/src/main/java/org/example/_2023_09_25/Persons.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_09_25/Persons.java b/Michail_Lessons/src/main/java/org/example/_2023_09_25/Persons.java
+new file mode 100644
+--- /dev/null	(date 1698227675135)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_09_25/Persons.java	(date 1698227675135)
+@@ -0,0 +1,23 @@
++package org.example._2023_09_25;
++
++public class Persons {
++  public Persons(String a, int i, boolean b, String m) {
++
++  }
++
++  public static void main(String[] args) {
++    Persons p1 = new Persons("A", 18, true, "M");
++    Persons p2 = new Persons("A", 54, true, "M");
++    Persons p3 = new Persons("A", 34, true, "M");
++    Persons p4 = new Persons("A", 76, true, "M");
++    Persons p5 = new Persons("A", 23, true, "M");
++    Persons p6 = new Persons("A", 32, true, "M");
++    Persons p7 = new Persons("A", 45, true, "M");
++    Persons p8 = new Persons("A", 52, true, "M");
++    Persons p9 = new Persons("A", 15, true, "M");
++    Persons p10 = new Persons("A", 34, true, "M");
++
++
++    System.out.println();
++  }
++}
+Index: Michail_Lessons/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><project xmlns=\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n  xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n  <modelVersion>4.0.0</modelVersion>\n\n  <groupId>org.example</groupId>\n  <artifactId>_300523-m-be</artifactId>\n  <version>1.0-SNAPSHOT</version>\n  <packaging>jar</packaging>\n\n  <name>_300523-m-be</name>\n  <url>http://maven.apache.org</url>\n\n  <properties>\n    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\n  </properties>\n\n  <dependencies>\n    <dependency>\n      <groupId>junit</groupId>\n      <artifactId>junit</artifactId>\n      <version>4.13.2</version>\n      <scope>test</scope>\n    </dependency>\n      <dependency>\n          <groupId>org.projectlombok</groupId>\n          <artifactId>lombok</artifactId>\n          <version>1.18.28</version>\n      </dependency>\n      <dependency>\n          <groupId>com.github.javafaker</groupId>\n          <artifactId>javafaker</artifactId>\n          <version>1.0.2</version>\n      </dependency>\n  </dependencies>\n    <build>\n        <plugins>\n            <plugin>\n                <groupId>org.apache.maven.plugins</groupId>\n                <artifactId>maven-compiler-plugin</artifactId>\n                <configuration>\n                    <source>16</source>\n                    <target>16</target>\n                </configuration>\n            </plugin>\n        </plugins>\n    </build>\n</project>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/pom.xml b/Michail_Lessons/pom.xml
+--- a/Michail_Lessons/pom.xml	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/pom.xml	(date 1698656155458)
+@@ -3,16 +3,18 @@
+   <modelVersion>4.0.0</modelVersion>
+ 
+   <groupId>org.example</groupId>
+-  <artifactId>_300523-m-be</artifactId>
++  <artifactId>Michail_Lessons</artifactId>
+   <version>1.0-SNAPSHOT</version>
+   <packaging>jar</packaging>
+ 
+   <name>_300523-m-be</name>
+   <url>http://maven.apache.org</url>
+ 
+-  <properties>
+-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+-  </properties>
++    <properties>
++        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++        <maven.compiler.source>20</maven.compiler.source>
++        <maven.compiler.target>20</maven.compiler.target>
++    </properties>
+ 
+   <dependencies>
+     <dependency>
+@@ -21,6 +23,11 @@
+       <version>4.13.2</version>
+       <scope>test</scope>
+     </dependency>
++      <dependency>
++          <groupId>org.mockito</groupId>
++          <artifactId>mockito-junit-jupiter</artifactId>
++          <version>5.3.1</version>
++      </dependency>
+       <dependency>
+           <groupId>org.projectlombok</groupId>
+           <artifactId>lombok</artifactId>
+Index: Michail_Lessons/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>### IntelliJ IDEA ###\n.idea\ntarget
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/.gitignore b/Michail_Lessons/.gitignore
+--- a/Michail_Lessons/.gitignore	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/.gitignore	(date 1698227674936)
+@@ -1,3 +1,38 @@
++target/
++!.mvn/wrapper/maven-wrapper.jar
++!**/src/main/**/target/
++!**/src/test/**/target/
++
+ ### IntelliJ IDEA ###
+-.idea
+-target
+\ No newline at end of file
++.idea/modules.xml
++.idea/jarRepositories.xml
++.idea/compiler.xml
++.idea/libraries/
++*.iws
++*.iml
++*.ipr
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++build/
++!**/src/main/**/build/
++!**/src/test/**/build/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: Java-prof-300523-me-pract/src/main/java/de/telran/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran;\n\nimport de.telran.bank.entity.Client;\nimport de.telran.bank.entity.Manager;\n\nimport java.util.HashSet;\nimport java.util.Set;\nimport java.util.UUID;\n\npublic class Main {\n    public static void main(String[] args) {\n        String str = UUID.randomUUID().toString();\n        System.out.println(str.replace(\"-\",\"\"));\n\n        Manager manager1 = new Manager();\n        System.out.println(manager1);\n\n        Manager manager2 = new Manager();\n        System.out.println(manager2);\n\n        System.out.println(manager1.equals(manager2));\n\n        Set<Integer> sets = new HashSet<>();\n\n;\n\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-prof-300523-me-pract/src/main/java/de/telran/Main.java b/Java-prof-300523-me-pract/src/main/java/de/telran/Main.java
+--- a/Java-prof-300523-me-pract/src/main/java/de/telran/Main.java	(revision 8a27c82e49e7d4ed113f13cd8ab00bcc84fffde8)
++++ b/Java-prof-300523-me-pract/src/main/java/de/telran/Main.java	(date 1697791479943)
+@@ -3,8 +3,6 @@
+ import de.telran.bank.entity.Client;
+ import de.telran.bank.entity.Manager;
+ 
+-import java.util.HashSet;
+-import java.util.Set;
+ import java.util.UUID;
+ 
+ public class Main {
+@@ -20,8 +18,6 @@
+ 
+         System.out.println(manager1.equals(manager2));
+ 
+-        Set<Integer> sets = new HashSet<>();
+-
+ ;
+ 
+     }
+Index: Java-prof-300523-me-pract/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>de.telran</groupId>\n    <artifactId>Java-prof-300523-me-pract</artifactId>\n    <version>1.0-SNAPSHOT</version>\n\n    <properties>\n        <maven.compiler.source>17</maven.compiler.source>\n        <maven.compiler.target>17</maven.compiler.target>\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\n    </properties>\n    <dependencies>\n        <dependency>\n            <groupId>org.projectlombok</groupId>\n            <artifactId>lombok</artifactId>\n            <version>1.18.26</version>\n        </dependency>\n        <dependency>\n            <groupId>org.junit.jupiter</groupId>\n            <artifactId>junit-jupiter</artifactId>\n            <version>5.9.2</version>\n            <scope>test</scope>\n        </dependency>\n        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->\n        <dependency>\n            <groupId>com.fasterxml.jackson.core</groupId>\n            <artifactId>jackson-databind</artifactId>\n            <version>2.15.2</version>\n        </dependency>\n        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->\n        <dependency>\n            <groupId>com.fasterxml.jackson.dataformat</groupId>\n            <artifactId>jackson-dataformat-xml</artifactId>\n            <version>2.15.2</version>\n        </dependency>\n        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf -->\n        <dependency>\n            <groupId>com.fasterxml.jackson.dataformat</groupId>\n            <artifactId>jackson-dataformat-protobuf</artifactId>\n            <version>2.15.2</version>\n        </dependency>\n\n    </dependencies>\n\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-prof-300523-me-pract/pom.xml b/Java-prof-300523-me-pract/pom.xml
+--- a/Java-prof-300523-me-pract/pom.xml	(revision 8a27c82e49e7d4ed113f13cd8ab00bcc84fffde8)
++++ b/Java-prof-300523-me-pract/pom.xml	(date 1698229039318)
+@@ -13,11 +13,25 @@
+         <maven.compiler.target>17</maven.compiler.target>
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     </properties>
++
+     <dependencies>
+         <dependency>
+-            <groupId>org.projectlombok</groupId>
++            <artifactId>junit-jupiter-engine</artifactId>
++            <groupId>org.junit.jupiter</groupId>
++            <version>5.10.0</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <artifactId>junit-jupiter-api</artifactId>
++            <groupId>org.junit.jupiter</groupId>
++            <version>5.10.0</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
+             <artifactId>lombok</artifactId>
+-            <version>1.18.26</version>
++            <groupId>org.projectlombok</groupId>
++            <version>1.18.28</version>
++            <scope>compile</scope>
+         </dependency>
+         <dependency>
+             <groupId>org.junit.jupiter</groupId>
+@@ -43,7 +57,16 @@
+             <artifactId>jackson-dataformat-protobuf</artifactId>
+             <version>2.15.2</version>
+         </dependency>
++        <dependency>
++            <artifactId>Faker</artifactId>
++            <groupId>org.webjars.bower</groupId>
++            <version>3.0.1</version>
++        </dependency>
++        <dependency>
++            <artifactId>Faker</artifactId>
++            <groupId>org.webjars.bower</groupId>
++            <version>3.0.1</version>
++        </dependency>
+ 
+     </dependencies>
+-
+ </project>
+\ No newline at end of file
+Index: Michail_Lessons/src/main/java/org/example/_2023_08_28/Main1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_08_28;\n\npublic class Main1 {\n    int a = 5;\n    static String s = \"hello\";\n\n    // x = 10\n    // x + y = 25\n    //\n    private static void m1(int a) {\n        // save(a)\n    }\n\n    public void get(int a) {\n        m1(a);\n        System.out.println(a + 15);\n    }\n\n    public int returnMinValue(int[] array) {\n        int min = array[0];\n\n        for (int i = 1; i < array.length; i++) {\n            if (array[i] < min) {\n                min = array[i];\n            }\n        }\n\n        return min;\n    }\n\n    public int[] m2() {\n        return null;\n    }\n\n    private int sumArray(int[] array) {\n        if (array.length == 0) {\n            return 0;\n        }\n        int left = 0;\n        int right = array.length - 1;\n        int sum = 0;\n\n        while (left <= right) {\n            if (left == right) {\n                sum += array[left];\n                break;\n            } else {\n                sum = sum + array[left] + array[right];\n                left++;\n                right--;\n            }\n        }\n        return sum;\n    }\n\n    public int returnSum (int[] arr) {\n        if (arr.length == 0) return 0;\n        int result = 0;\n\n        if (arr.length%2==1){\n            result = arr[arr.length/2];\n        }\n\n        for (int i = 0; i < arr.length/2; i++) {\n            result += arr[i] + arr[arr.length-1-i];\n        }\n        return result;\n    }\n\n\n    public static void main(String[] args) {\n        int[] qaa = {31, 21, 45, 6, 98, 7};\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_08_28/Main1.java b/Michail_Lessons/src/main/java/org/example/_2023_08_28/Main1.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_08_28/Main1.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_08_28/Main1.java	(date 1698227675133)
+@@ -28,47 +28,8 @@
+         return min;
+     }
+ 
+-    public int[] m2() {
+-        return null;
+-    }
+-
+-    private int sumArray(int[] array) {
+-        if (array.length == 0) {
+-            return 0;
+-        }
+-        int left = 0;
+-        int right = array.length - 1;
+-        int sum = 0;
+-
+-        while (left <= right) {
+-            if (left == right) {
+-                sum += array[left];
+-                break;
+-            } else {
+-                sum = sum + array[left] + array[right];
+-                left++;
+-                right--;
+-            }
+-        }
+-        return sum;
+-    }
+-
+-    public int returnSum (int[] arr) {
+-        if (arr.length == 0) return 0;
+-        int result = 0;
+-
+-        if (arr.length%2==1){
+-            result = arr[arr.length/2];
+-        }
+-
+-        for (int i = 0; i < arr.length/2; i++) {
+-            result += arr[i] + arr[arr.length-1-i];
+-        }
+-        return result;
+-    }
+-
+-
+     public static void main(String[] args) {
+-        int[] qaa = {31, 21, 45, 6, 98, 7};
++        int[] qaa = {3, 21, 45, 6, 98, 7};
++        System.out.println(new Main1().returnMinValue(qaa));
+     }
+ }
+\ No newline at end of file
+Index: Michail_Lessons/src/main/java/org/example/_2023_10_25/serial/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example._2023_10_25.serial;\n\nimport com.github.javafaker.Faker;\n\nimport java.io.*;\nimport java.util.ArrayList;\n\npublic class Main {\n    public static void main(String[] args) {\n\n//        Person777 person777 = new Person777(new Faker().name().name(), 25);\n//        System.out.println(\"Before serial: \");\n//        System.out.println(\"Name: \" + person777.getName());\n//        System.out.println(\"Age: \" + person777.getAge());\n//\n//        //Serial object to file\n//        try {\n//            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(\"person.ser\"));\n//            out.writeObject(person777);\n//            out.close();\n//            System.out.println(\"Serialization was done\");\n//\n//        } catch (IOException e) {\n//            throw new RuntimeException(e);\n//        }\n\n        Person777 newPerson;\n\n        //Deserialization\n        try {\n            ObjectInputStream in = new ObjectInputStream(new FileInputStream(\"person.ser\"));\n            newPerson = (Person777) in.readObject();\n            in.close();\n            System.out.println(\"DE-Serialization was done\");\n        } catch (ClassNotFoundException | IOException e) {\n            throw new RuntimeException(e);\n        }\n\n        if (newPerson != null) {\n            System.out.println(\"After serial: \");\n            System.out.println(\"Name: \" + newPerson.getName());\n            System.out.println(\"Age: \" + newPerson.getAge());\n        }\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_25/serial/Main.java b/Michail_Lessons/src/main/java/org/example/_2023_10_25/serial/Main.java
+--- a/Michail_Lessons/src/main/java/org/example/_2023_10_25/serial/Main.java	(revision 6d3a6d6ac31f763cdb4d443db8af8842a5fde49c)
++++ b/Michail_Lessons/src/main/java/org/example/_2023_10_25/serial/Main.java	(date 1698228912940)
+@@ -8,21 +8,21 @@
+ public class Main {
+     public static void main(String[] args) {
+ 
+-//        Person777 person777 = new Person777(new Faker().name().name(), 25);
+-//        System.out.println("Before serial: ");
+-//        System.out.println("Name: " + person777.getName());
+-//        System.out.println("Age: " + person777.getAge());
+-//
+-//        //Serial object to file
+-//        try {
+-//            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("person.ser"));
+-//            out.writeObject(person777);
+-//            out.close();
+-//            System.out.println("Serialization was done");
+-//
+-//        } catch (IOException e) {
+-//            throw new RuntimeException(e);
+-//        }
++        Person777 person777 = new Person777(new Faker().name().name(), 25);
++        System.out.println("Before serial: ");
++        System.out.println("Name: " + person777.getName());
++        System.out.println("Age: " + person777.getAge());
++
++        //Serial object to file
++        try {
++            ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("person.ser"));
++            out.writeObject(person777);
++            out.close();
++            System.out.println("Serialization was done");
++
++        } catch (IOException e) {
++            throw new RuntimeException(e);
++        }
+ 
+         Person777 newPerson;
+ 
+Index: Summery/src/de/telran/lesson20230908/Human.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.lesson20230908;\n\nimport java.util.Objects;\n\npublic class Human implements Playable {\n\n    private String name;\n\n    private int age;\n\n    private Dog dog;\n\n    public Human(String name) {\n        this.name = name;\n    }\n\n    @Override\n    public void play() {\n        System.out.println(\"Human \" + name + \" plays\");\n    }\n\n    @Override\n    public void play(Playable playable) {\n        System.out.println(\"Human \" + name + \" plays with \" + playable);\n    }\n\n    @Override\n    public boolean equals(Object another) {\n        if (this == another) return true;\n//        if (another.getClass().equals(Human.class)) {\n        if (another instanceof Human) {\n            Human anotherHuman = (Human) another;\n            boolean nameCondition = (this.name == null && anotherHuman.name == null)\n                    || (this.name != null) && this.name.equals(anotherHuman.name);\n            boolean dogCondition = (this.dog == null && anotherHuman.dog == null)\n                    || (this.dog != null) && this.dog.equals(anotherHuman.dog);\n\n            if (nameCondition && dogCondition && this.age == anotherHuman.age) return true;\n        }\n        return false;\n    }\n\n    @Override\n    public int hashCode() {\n        int result = name != null ? name.hashCode() : 0;\n        result = 31 * result + age;\n        result = 31 * result + (dog != null ? dog.hashCode() : 0);\n        return result;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Summery/src/de/telran/lesson20230908/Human.java b/Summery/src/de/telran/lesson20230908/Human.java
+--- a/Summery/src/de/telran/lesson20230908/Human.java	(revision a0545b0c7705e3bb93d7d5ac0556d3e2490fa27c)
++++ b/Summery/src/de/telran/lesson20230908/Human.java	(date 1697791480040)
+@@ -1,7 +1,5 @@
+ package de.telran.lesson20230908;
+ 
+-import java.util.Objects;
+-
+ public class Human implements Playable {
+ 
+     private String name;
+@@ -30,6 +28,9 @@
+ //        if (another.getClass().equals(Human.class)) {
+         if (another instanceof Human) {
+             Human anotherHuman = (Human) another;
++//            double x = 1.4;
++//            int y = (int) x;
++
+             boolean nameCondition = (this.name == null && anotherHuman.name == null)
+                     || (this.name != null) && this.name.equals(anotherHuman.name);
+             boolean dogCondition = (this.dog == null && anotherHuman.dog == null)
+@@ -40,11 +41,5 @@
+         return false;
+     }
+ 
+-    @Override
+-    public int hashCode() {
+-        int result = name != null ? name.hashCode() : 0;
+-        result = 31 * result + age;
+-        result = 31 * result + (dog != null ? dog.hashCode() : 0);
+-        return result;
+-    }
++
+ }
+Index: Java-prof-300523-me-pract/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-prof-300523-me-pract/.idea/.gitignore b/Java-prof-300523-me-pract/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1697791480003)
++++ b/Java-prof-300523-me-pract/.idea/.gitignore	(date 1697791480003)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: Java-prof-300523-me-pract/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-prof-300523-me-pract/.idea/vcs.xml b/Java-prof-300523-me-pract/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1697791480005)
++++ b/Java-prof-300523-me-pract/.idea/vcs.xml	(date 1697791480005)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Summery/src/de/telran/lesson20230915/TestEquals.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.lesson20230915;\n\nimport de.telran.lesson20230908.Human;\n\npublic class TestEquals {\n\n    public static void main(String[] args) {\n\n        Human human3 = null;\n//        human3.play(); // impossible\n        someMethod(human3);\n\n        Human human1 = new Human(\"Tom\");\n        Human human2 = new Human(\"Tom\");\n        human3 = human1;\n\n        System.out.println(human1.equals(human2));\n        System.out.println(human1 == human2);\n\n        System.out.println(human1.hashCode());\n        System.out.println(human2.hashCode());\n        System.out.println(human3.hashCode());\n\n        String s1 = \"Some string\";\n        String s2 = \"Some string\";\n        String s3 = s1;\n        String s4 = new String(\"Some string\");\n\n        System.out.println(s1 == s2); // true\n        System.out.println(s1 == s3); // true\n        System.out.println(s1 == s4); // false\n\n        System.out.println(s1.equals(s2)); // true\n        System.out.println(s1.equals(s3)); // true\n        System.out.println(s1.equals(s4)); // true\n    }\n\n    public static void someMethod(Human human) {\n        if (human != null) {\n            human.play();\n        } else {\n            human = new Human(\"Default object\");\n            human.play();\n        }\n    }\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Summery/src/de/telran/lesson20230915/TestEquals.java b/Summery/src/de/telran/lesson20230915/TestEquals.java
+--- a/Summery/src/de/telran/lesson20230915/TestEquals.java	(revision a0545b0c7705e3bb93d7d5ac0556d3e2490fa27c)
++++ b/Summery/src/de/telran/lesson20230915/TestEquals.java	(date 1697791480042)
+@@ -7,40 +7,21 @@
+     public static void main(String[] args) {
+ 
+         Human human3 = null;
+-//        human3.play(); // impossible
+         someMethod(human3);
+ 
+         Human human1 = new Human("Tom");
+         Human human2 = new Human("Tom");
+-        human3 = human1;
+ 
+         System.out.println(human1.equals(human2));
+         System.out.println(human1 == human2);
+-
+-        System.out.println(human1.hashCode());
+-        System.out.println(human2.hashCode());
+-        System.out.println(human3.hashCode());
+-
+-        String s1 = "Some string";
+-        String s2 = "Some string";
+-        String s3 = s1;
+-        String s4 = new String("Some string");
+-
+-        System.out.println(s1 == s2); // true
+-        System.out.println(s1 == s3); // true
+-        System.out.println(s1 == s4); // false
+-
+-        System.out.println(s1.equals(s2)); // true
+-        System.out.println(s1.equals(s3)); // true
+-        System.out.println(s1.equals(s4)); // true
+     }
+ 
+-    public static void someMethod(Human human) {
+-        if (human != null) {
+-            human.play();
++    private static void someMethod(Human human3) {
++        if (human3 != null) {
++            human3.play();
+         } else {
+-            human = new Human("Default object");
+-            human.play();
++            human3 = new Human("Default object");
++            human3.play();
+         }
+     }
+ 
+Index: Java-prof-300523-me-pract/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-prof-300523-me-pract/.idea/misc.xml b/Java-prof-300523-me-pract/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1697791479988)
++++ b/Java-prof-300523-me-pract/.idea/misc.xml	(date 1697791479988)
+@@ -0,0 +1,11 @@
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+Index: Java-prof-300523-me-pract/.idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java-prof-300523-me-pract/.idea/encodings.xml b/Java-prof-300523-me-pract/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1697791480011)
++++ b/Java-prof-300523-me-pract/.idea/encodings.xml	(date 1697791480011)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
++    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Summery/src/de/telran/lesson20230922/MyCustomArrayList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.lesson20230922;\n\nimport java.util.Iterator;\nimport java.util.NoSuchElementException;\n\npublic class MyCustomArrayList implements Iterable<String>{\n\n    private String[] data;\n\n    public MyCustomArrayList(String[] data) {\n        this.data = data;\n    }\n\n    @Override\n    public Iterator<String> iterator() {\n        return new Iterator<String>() {\n\n            int current = data.length - 1;\n\n            @Override\n            public boolean hasNext() {\n                return current >= 0;\n            }\n\n            @Override\n            public String next() {\n                if (!hasNext()){\n                    throw new NoSuchElementException(\"Cannot invoke next()\");\n                }\n                return data[current--];\n            }\n        };\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Summery/src/de/telran/lesson20230922/MyCustomArrayList.java b/Summery/src/de/telran/lesson20230922/MyCustomArrayList.java
+--- a/Summery/src/de/telran/lesson20230922/MyCustomArrayList.java	(revision a0545b0c7705e3bb93d7d5ac0556d3e2490fa27c)
++++ b/Summery/src/de/telran/lesson20230922/MyCustomArrayList.java	(date 1697791480045)
+@@ -1,34 +1,32 @@
+ package de.telran.lesson20230922;
+ 
+ import java.util.Iterator;
+-import java.util.NoSuchElementException;
+ 
+-public class MyCustomArrayList implements Iterable<String>{
++public class MyCustomArrayList implements Iterable<String> {
+ 
+-    private String[] data;
++  private String[] data;
+ 
+-    public MyCustomArrayList(String[] data) {
+-        this.data = data;
+-    }
++  public MyCustomArrayList(String[] data) {
++    this.data = data;
++  }
+ 
+-    @Override
+-    public Iterator<String> iterator() {
+-        return new Iterator<String>() {
++
++  @Override
++  public Iterator<String> iterator() {
++
++    return new Iterator<String>() {
+ 
+-            int current = data.length - 1;
++    int current = data.length - 1;
+ 
+-            @Override
+-            public boolean hasNext() {
+-                return current >= 0;
+-            }
++      @Override
++      public boolean hasNext() {
++        return current >=0;
++      }
+ 
+-            @Override
+-            public String next() {
+-                if (!hasNext()){
+-                    throw new NoSuchElementException("Cannot invoke next()");
+-                }
+-                return data[current--];
+-            }
+-        };
+-    }
++      @Override
++      public String next() {
++        return data[current--];
++      }
++    };
++  }
+ }
+Index: Summery/src/de/telran/lesson20230922/UseMyCustomArrayList.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package de.telran.lesson20230922;\n\nimport java.util.Iterator;\n\npublic class UseMyCustomArrayList {\n\n    public static void main(String[] args) {\n\n        MyCustomArrayList list = new MyCustomArrayList(new String[] {\"One\", \"Two\", \"Three\"});\n\n        for (String data : list) {\n            System.out.println(data);\n        }\n\n        Iterator<String> iterator = list.iterator();\n        iterator.next();\n        iterator.next();\n        iterator.next();\n        iterator.next();\n    }\n\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Summery/src/de/telran/lesson20230922/UseMyCustomArrayList.java b/Summery/src/de/telran/lesson20230922/UseMyCustomArrayList.java
+--- a/Summery/src/de/telran/lesson20230922/UseMyCustomArrayList.java	(revision a0545b0c7705e3bb93d7d5ac0556d3e2490fa27c)
++++ b/Summery/src/de/telran/lesson20230922/UseMyCustomArrayList.java	(date 1697791480056)
+@@ -1,23 +1,15 @@
+ package de.telran.lesson20230922;
+ 
+-import java.util.Iterator;
+-
+ public class UseMyCustomArrayList {
+ 
+-    public static void main(String[] args) {
++  public static void main(String[] args) {
+ 
+-        MyCustomArrayList list = new MyCustomArrayList(new String[] {"One", "Two", "Three"});
++    MyCustomArrayList list = new MyCustomArrayList(new String[]{"One", "Two", "Three"});
+ 
+-        for (String data : list) {
+-            System.out.println(data);
+-        }
++    for (String data : list) {
++      System.out.println(data);
++    }
+ 
+-        Iterator<String> iterator = list.iterator();
+-        iterator.next();
+-        iterator.next();
+-        iterator.next();
+-        iterator.next();
+-    }
+-
++  }
+ 
+ }
+diff --git a/Michail_Lessons/src/main/java/org/example/_2023_10_16/taski.txt b/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taski.txt
+rename from Michail_Lessons/src/main/java/org/example/_2023_10_16/taski.txt
+rename to Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taski.txt

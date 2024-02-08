@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf6f6ce9-b8ec-4e33-9cb0-06e7c2b7a063" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-stage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-stage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/CreditServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/aspect/LoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/CreditCardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/CreditController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/CreditOrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/ProductsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/ResponseExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/CreateCreditOrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/CreditCardDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/CreditCardInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/CreditOrderAfterCreateDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/DeleteCreditOrderRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/ErrorExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/PaymentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/PaymentsScheduleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/ProductDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/ProductListDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Agreement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Credit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/CreditOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/OperationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/PaymentSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/CalculationMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/CardStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/CreditOrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/CreditStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/PaymentSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/generator/UuidTimeSequenceGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/lombok.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/PaymentScheduleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/UuidMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/repository/CreditCardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/repository/CreditOrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/repository/CreditRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/CreditCardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/CreditOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/CreditService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/CreditNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/CreditOrderDeleteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/NearestPaymentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/ProductNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditCardServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditOrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/service/util/ServiceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/annotation/Ein.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/annotation/PositiveDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/annotation/PositiveInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/annotation/Uuid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/impl/EinConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveDecimalConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveIntegerConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/impl/UuidConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-stage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-stage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-create-sequence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-create-sequence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-create-tables-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-create-tables-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-drop-tables-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-drop-tables-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-286_insert_payment_schedule_test_data_changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-286_insert_payment_schedule_test_data_changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/v0.0.1-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/v0.0.1-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/generator/UuidTimeSequenceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/generator/UuidTimeSequenceGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardInfoMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardInfoMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/PaymentScheduleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/PaymentScheduleMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/ProductMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/ProductMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/UuidMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/UuidMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditCardServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditCardServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditOrderServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditOrderServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/ProductServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/ProductServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/util/DtoCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/util/DtoCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/util/EntityCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/util/EntityCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/EinConstraintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/EinConstraintTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveDecimalConstraintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveDecimalConstraintTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveIntegerConstraintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveIntegerConstraintTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/UuidConstraintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/UuidConstraintTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZiJTiD1r7SOVgGfxHihEYRUPzA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ControllerTest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vladislavgorin/Documents/skilldesk/Java/Michail_Lessons/credit-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="CreditServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="credit-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lab.rmtbanking.creditservice.CreditServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf6f6ce9-b8ec-4e33-9cb0-06e7c2b7a063" name="Changes" comment="" />
+      <created>1702898976511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702898976511</updated>
+      <workItem from="1702898978060" duration="3303000" />
+      <workItem from="1704702756102" duration="618000" />
+      <workItem from="1704751076320" duration="617000" />
+      <workItem from="1705914320590" duration="3803000" />
+      <workItem from="1706370389362" duration="641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

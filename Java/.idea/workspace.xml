@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e464ebb7-e382-4b2d-811a-8790e2cf5000" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/main/java/de/telran/_30_10_23_UnitTest/ArrayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/main/java/de/telran/_30_10_23_UnitTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/test/java/de/telran/_30_10_23_UnitTest/ArrayServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_18/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_18/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_18/taski.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_20/Calculates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_20/Main0920.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_27/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_27/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_27/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_27/TaskManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Michail_Lessons/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Michail_Lessons/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Michail_Lessons/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Michail_Lessons/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Michail_Lessons/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_25/ForTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_25/Persons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/TaskiWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_04_10_23/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_04_10_23/taski.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_09_10_23/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_09_10_23/taski.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_11_10_23/Task14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_16_10_23/Recurs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_16_10_23/Task15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_18_10_23/ParamM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_23_10_23/AlgorithmLuna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_23_10_23/Booth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_23_10_23/names.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_25_10_23/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_25_10_23/taski.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_30_10_23/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_10_23/src/test/java/org/example/_30_10_23/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-prof-300523-me-pract/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/main/java/de/telran/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/main/java/de/telran/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/main/java/de/telran/bank/entity/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/test/java/de/telran/bank/entity/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-prof-300523-me-pract/src/test/java/de/telran/bank/entity/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro_Theory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro_Theory/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro_Theory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro_Theory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro_Theory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro_Theory/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_13/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/Hw.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_13/Hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPro_Theory/src/main/java/org/example/_23_09_13/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro_Theory/target/classes/org/example/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro_Theory/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPro_Theory/target/classes/org/example/hw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_08_28/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_08_28/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_11/prac/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_13/ExEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_13/ExEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_13/JC3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_18/MapEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_18/MapEx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_18/TaskiEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_18/TaskiEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_25/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_25/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_27/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_09_27/TaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/S1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_04/streams1/S1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/StatEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/StatEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/GE4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/GE4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/WaterSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/WaterSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Schoolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Schoolar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taskEx1/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/taski.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_16/generics/taski.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_25/serial/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_25/serial/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_25/taski.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Michail_Lessons/src/main/java/org/example/_2023_10_25/taski.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230908/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230908/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230915/TestEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230915/TestEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230922/IteratorExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230922/IteratorExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230922/MyCustomArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230922/MyCustomArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230922/UseMyCustomArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Summery/src/de/telran/lesson20230922/UseMyCustomArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summery/src/de/telran/lesson20231020/CollectorExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/Summery/src/de/telran/lesson20231020/CollectorExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summery/src/de/telran/lesson20231020/TaskWithMonkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/Summery/src/de/telran/lesson20231020/TaskWithMonkey.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Java-prof-300523-me-pract" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2X1KoLdxhQJfrIAoC2FXjvXxEBa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/vladislavgorin/Documents/skilldesk/Java/_04_10_23/src/main/java/org/example/_25_10_23",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_25_10_23" />
+      <recent name="$PROJECT_DIR$/_04_10_23/src/main/java/org/example/_23_10_23" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.telran._30_10_23_UnitTest" />
+      <recent name="org.example._30_10_23" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example._30_10_23" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArrayServiceTest.CheckingValues">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.telran._30_10_23_UnitTest.Main" />
+      <module name="Java-prof-300523-me-pract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.telran._30_10_23_UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayServiceTest.CheckingValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-prof-300523-me-pract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.telran._30_10_23_UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.telran._30_10_23_UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="de.telran._30_10_23_UnitTest.ArrayServiceTest" />
+      <option name="METHOD_NAME" value="CheckingValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayServiceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-prof-300523-me-pract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.telran._30_10_23_UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.telran._30_10_23_UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="de.telran._30_10_23_UnitTest.ArrayServiceTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayServiceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-prof-300523-me-pract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.telran._30_10_23_UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.telran._30_10_23_UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="de.telran._30_10_23_UnitTest.ArrayServiceTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_04_10_23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._30_10_23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example._30_10_23" />
+      <option name="MAIN_CLASS_NAME" value="org.example._30_10_23.CalculatorTest" />
+      <option name="METHOD_NAME" value="testFactorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayServiceTest.CheckingValues" />
+        <item itemvalue="JUnit.ArrayServiceTest.test1" />
+        <item itemvalue="JUnit.ArrayServiceTest.test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CalculatorTest.testFactorial" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e464ebb7-e382-4b2d-811a-8790e2cf5000" name="Changes" comment="" />
+      <created>1697791319336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697791319336</updated>
+    </task>
+    <servers />
+  </component>
+</project>

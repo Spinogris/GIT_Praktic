@@ -1,0 +1,15 @@
+
+`
+java:S3034>">Prevent "int" promotion by adding "& 0xff" to this expression.(â·î÷úÿÿÿÿ8æŸ„íÏ1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“ô¨íûÿÿÿÿ8æÿ•íÏ1
+]
+java:S1172";Remove this unused method parameter "bynaryBotApplication".(“ô¨íûÿÿÿÿ8ïÿ•íÏ1
+g
+java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(®É–Ø8 „íÏ1
+[
+java:S1854+">Remove this useless assignment to local variable "binaryText".(ëõŒÄ8Üš“íÏ1
+L
+java:S1481+"/Remove this unused "binaryText" local variable.(ëõŒÄ8İš“íÏ1
+
+java:S1186M"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğÿ÷8Â±’íÏ1

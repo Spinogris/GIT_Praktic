@@ -1,0 +1,11 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‹úôïÎ1
+g	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ŒúôïÎ1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(õ»ÿşÿÿÿÿ8“úôïÎ1
+X
+java:S6437"6Revoke and change this password, as it is compromised.(ªÒ‹­ûÿÿÿÿ8–úôïÎ1
+G	java:S106"+Replace this use of System.out by a logger.(Å²õ¢8—úôïÎ1
+G	java:S106"+Replace this use of System.out by a logger.(ÛÌï8—úôïÎ1
+G	java:S106"+Replace this use of System.out by a logger.(ª ©÷8—úôïÎ1
+L	java:S106"+Replace this use of System.out by a logger.(ÇÇ—ùÿÿÿÿ8˜úôïÎ1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8˜úôïÎ1

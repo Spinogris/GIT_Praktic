@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b369cdb-1dd6-48cb-b3ad-b2c47a3cc898" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/telran/_30_10_23_UnitTest/ArrayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/telran/_30_10_23_UnitTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/de/telran/_30_10_23_UnitTest/ArrayServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/telran/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/telran/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/telran/bank/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/telran/bank/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/telran/bank/entity/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/telran/bank/entity/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/telran/bank/entity/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/telran/bank/entity/ManagerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2VZHwJKiINzpOiguWW3bbEUSKE8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/vladislavgorin/Documents/skilldesk/Java/Java-prof-300523-me-pract",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.telran.bank.entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ManagerTest.testCreateManagerToClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-prof-300523-me-pract" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.telran.bank.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.telran.bank.entity" />
+      <option name="MAIN_CLASS_NAME" value="de.telran.bank.entity.ManagerTest" />
+      <option name="METHOD_NAME" value="testCreateManagerToClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ManagerTest.testCreateManagerToClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b369cdb-1dd6-48cb-b3ad-b2c47a3cc898" name="Changes" comment="" />
+      <created>1695036920489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695036920489</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_prof_300523_me_pract$ManagerTest_testCreateManagerToClient.ic" NAME="ManagerTest.testCreateManagerToClient Coverage Results" MODIFIED="1695213015878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>de.telran.bank.entity.*</FILTER>
+    </SUITE>
+  </component>
+</project>

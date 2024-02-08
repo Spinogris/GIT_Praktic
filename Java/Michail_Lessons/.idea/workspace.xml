@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a888caf-764f-4ed0-aaec-4f35d4db96c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/.docker/context/conf/mysql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/.docker/context/images/app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/.env.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/Alexey_Lavrov_Pro.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/DB-Scheme.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/BankProjApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/controller/AgreementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/controller/ManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/controller/ResponseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/AccountDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/AccountShortDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/AgreementDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/ClientDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/ClientShortDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/CreateAccountDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/CreateManagerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/ErrorExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/ManagerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/ManagerShortDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/RefreshJwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/dto/auth/JwtAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/Agreement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/converter/RoleSetConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/enums/AccountStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/enums/AccountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/enums/AgreementStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/enums/ClientStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/enums/CurrencyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/enums/ManagerStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/enums/ProductStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/entity/enums/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/exeption/AccountNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/exeption/AuthException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/exeption/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/exeption/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/exeption/UnauthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/lombok.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/mapper/AgreementMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/mapper/ClientMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/mapper/CreateAccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/mapper/ManagerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/mapper/UUIDMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/repository/AgreementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/repository/ManagerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/AgreementServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/JwtProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/ManagerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/interfaces/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/interfaces/AgreementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/interfaces/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/interfaces/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/interfaces/ManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/interfaces/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/service/interfaces/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/util/GenerateJWTKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/util/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/java/com/project/bankproj/validation/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/changelog-master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/10-changeset-manager-table-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/10-create-manager-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/10-drop-manager-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/20-changeset-client-table-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/20-create-client-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/20-drop-client-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/30-changeset-account-table-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/30-create-account-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/30-drop-account-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/40-changeset-product-table-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/40-create-product-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/40-drop-product-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/5-changeset-siq-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/50-changeset-agreement-table-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/50-create-agreement-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/50-drop-agreement-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/60-changeset-transaction-table-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/60-create-transaction-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/60-drop-transaction-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.1-init/db.changelog-v.0.1.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.2-test-data/70-changelogset-insert-test-data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.2-test-data/70-drop-all_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.2-test-data/70-insert-test-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.2-test-data/db.changelog-v.0.1.2_test_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.3-auth/100-changeset-insert-test-user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.3-auth/100-drop-all_users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.3-auth/100-insert-test-users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.3-auth/90-changeset-user-table-create.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.3-auth/90-create-user-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.3-auth/90-delete-user-table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/db/changeLog/v.0.1.3-auth/db.changelog-v.0.1.3_auth_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/main/resources/liquibase.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/config/TestSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/controller/AccountControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/controller/AgreementControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/controller/AuthControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/controller/ClientControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/controller/ManagerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/controller/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/controller/ResponseExceptionHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/mapper/AccountMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/mapper/AgreementMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/mapper/ClientMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/mapper/ManagerMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/mapper/ProductMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/service/AccountServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/service/AgreementServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/service/AuthServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/service/ClientServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/service/JwtProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/service/ManagerServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/service/ProductServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/util/DtoCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/util/EntityCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/src/test/java/com/project/bankproj/util/JwtCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alexey_Lavrov_Pro/workflow/githun-actions-demo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/src/main/java/com/example/binarybot/BinaryBotApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/src/main/java/com/example/binarybot/BynaryBotApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryBot/src/test/java/com/example/binarybot/BinaryBotApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduardGmbH/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduardGmbH/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduardGmbH/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduardGmbH/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduardGmbH/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduardGmbH/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduardGmbH/src/main/java/com/edik/eduardgmbh/EduardGmbHApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduardGmbH/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduardGmbH/src/test/java/com/edik/eduardgmbh/EduardGmbHApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_11/prac/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_25/ForTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_25/Persons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_04/streams1/TaskiWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Егоров Михаил.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/.env" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/.gitlab-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/docker-compose-stage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/docker-compose-stage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/docker-compose-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/docker-compose-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/CreditServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/aspect/LoggingAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/CreditCardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/CreditController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/CreditOrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/ProductsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/controller/ResponseExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/CreateCreditOrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/CreditCardDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/CreditCardInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/CreditOrderAfterCreateDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/DeleteCreditOrderRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/ErrorExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/PaymentDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/PaymentsScheduleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/ProductDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/dto/ProductListDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Agreement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Credit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/CreditOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/OperationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/PaymentSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/CalculationMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/CardStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/CreditOrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/CreditStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/entity/enums/PaymentSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/generator/UuidTimeSequenceGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/lombok.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/PaymentScheduleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/mapper/UuidMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/repository/CreditCardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/repository/CreditOrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/repository/CreditRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/CreditCardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/CreditOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/CreditService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/CreditNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/CreditOrderDeleteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/NearestPaymentNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/exception/ProductNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditCardServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditOrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/service/util/ServiceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/annotation/Ein.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/annotation/PositiveDecimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/annotation/PositiveInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/annotation/Uuid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/impl/EinConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveDecimalConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveIntegerConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/java/com/andersenlab/rmtbanking/creditservice/validation/impl/UuidConstraint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/application-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/application-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/application-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/application-stage.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/application-stage.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-create-sequence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-create-sequence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-create-tables-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-create-tables-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-drop-tables-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283-drop-tables-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-283_insert_test_data_changelog_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-286_insert_payment_schedule_test_data_changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/RTN-286_insert_payment_schedule_test_data_changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/v0.0.1-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/v0.0.1-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/generator/UuidTimeSequenceGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/generator/UuidTimeSequenceGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardInfoMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardInfoMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditCardMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/CreditMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/PaymentScheduleMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/PaymentScheduleMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/ProductMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/ProductMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/UuidMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/mapper/UuidMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditCardServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditCardServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditOrderServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditOrderServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/CreditServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/ProductServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/service/impl/ProductServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/util/DtoCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/util/DtoCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/util/EntityCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/util/EntityCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/EinConstraintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/EinConstraintTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveDecimalConstraintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveDecimalConstraintTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveIntegerConstraintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/PositiveIntegerConstraintTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/UuidConstraintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/credit-service/src/test/java/com/andersenlab/rmtbanking/creditservice/validation/impl/UuidConstraintTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_08_28/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_08_28/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_11/prac/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_11/prac/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_11/prac/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_11/prac/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_11/prac/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_11/prac/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_11/prac/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_11/prac/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_13/ExEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_13/ExEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_13/JC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_13/JC1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_13/JC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_13/JC2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_13/JC3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_13/JC3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_18/MapEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_18/MapEx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_18/TaskiEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_18/TaskiEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_25/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_25/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_27/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_09_27/TaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_04/streams1/S1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_04/streams1/S1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/StatEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/StatEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/GE1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/GE1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/GE2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/GE2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/GE3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/GE3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/GE4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/GE4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/WaterSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/WaterSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/taskEx/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/taskEx/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/taskEx1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/taskEx1/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/taskEx1/Schoolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Schoolar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/taskEx1/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/taski.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics/taski.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_25/serial/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_25/serial/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_25/taski.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_10_25/taski.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_11_15/regex/RegEx6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_11_15/regex/RegEx6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_12_06/taski/dryKissYagni/CircleQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_12_06/taski/dryKissYagni/CircleQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_2023_12_06/taski/dryKissYagni/DAta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/_2023_12_06/taski/dryKissYagni/Data.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2UbjRq3pttRjE9MX5GSqZeWLLE9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vladislavgorin/Documents/skilldesk/Java/Michail_Lessons&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/_2023_10_16/generics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DLock">
+    <configuration name="DLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._2023_11_22.DLock" />
+      <module name="Michail_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._2023_11_22.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataRaceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._2023_11_20.DataRaceEx" />
+      <module name="Michail_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._2023_11_20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._2023_10_11.FibEx" />
+      <module name="Michail_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._2023_10_11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._2023_11_15.regex.RegEx2" />
+      <module name="Michail_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._2023_11_15.regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example._2023_11_15.regex.RegEx6" />
+      <module name="Michail_Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example._2023_11_15.regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DLock" />
+        <item itemvalue="Application.DataRaceEx" />
+        <item itemvalue="Application.RegEx6" />
+        <item itemvalue="Application.RegEx2" />
+        <item itemvalue="Application.FibEx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a888caf-764f-4ed0-aaec-4f35d4db96c4" name="Changes" comment="" />
+      <created>1693215169558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693215169558</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da53eeb5-dadf-4b13-8273-cc8943e3c2d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/binarybot/BynaryBotApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_11/prac/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_25/ForTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_25/Persons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_04/streams1/TaskiWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_08_28/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_08_28/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_11/prac/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_11/prac/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_11/prac/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_11/prac/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_11/prac/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_11/prac/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_11/prac/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_11/prac/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_13/ExEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_13/ExEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_13/JC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_13/JC1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_13/JC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_13/JC2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_13/JC3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_13/JC3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_18/MapEx3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_18/MapEx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_18/TaskiEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_18/TaskiEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_25/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_25/IteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_27/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_09_27/TaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_04/streams1/S1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_04/streams1/S1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/StatEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/StatEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/GE1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/GE1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/GE2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/GE2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/GE3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/GE3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/GE4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/GE4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/WaterSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/WaterSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/taskEx/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/taskEx/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/taskEx1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/taskEx1/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/taskEx1/Schoolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Schoolar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/taskEx1/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/generics/taskEx1/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/taski.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_16/generics/taski.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_25/serial/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_25/serial/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_25/taski.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_10_25/taski.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_11_15/regex/RegEx6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_11_15/regex/RegEx6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_12_06/taski/dryKissYagni/CircleQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_12_06/taski/dryKissYagni/CircleQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/example/_2023_12_06/taski/dryKissYagni/DAta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/org/example/_2023_12_06/taski/dryKissYagni/Data.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2aqq701wWVk0Ve7rEIIQgiRPsmT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.49310344&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.binarybot" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BinaryBotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="BinaryBot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.binarybot.BinaryBotApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da53eeb5-dadf-4b13-8273-cc8943e3c2d2" name="Changes" comment="" />
+      <created>1705056287701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705056287701</updated>
+      <workItem from="1705056290647" duration="3803000" />
+      <workItem from="1705185391715" duration="706000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
