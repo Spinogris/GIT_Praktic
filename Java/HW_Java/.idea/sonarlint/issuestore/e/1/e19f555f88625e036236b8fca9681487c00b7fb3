@@ -1,0 +1,11 @@
+
+R
+java:S1854"7Remove this useless assignment to local variable "th2".(”£œÌüÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "th1".(¸Øøçşÿÿÿÿ
+C
+java:S1481"(Remove this unused "th1" local variable.(¸Øøçşÿÿÿÿ
+C
+java:S1481"(Remove this unused "th2" local variable.(”£œÌüÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(„Ùƒ 
+@	java:S106"+Replace this use of System.out by a logger.(ÀŸûÈ

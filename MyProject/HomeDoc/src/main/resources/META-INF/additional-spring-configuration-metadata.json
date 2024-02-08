@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "spring.main.datasource.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.main.datasource.url."
+    },
+    {
+      "name": "spring.main.datasource.username",
+      "type": "java.lang.String",
+      "description": "Description for spring.main.datasource.username."
+    },
+    {
+      "name": "spring.main.datasource.password",
+      "type": "java.lang.String",
+      "description": "Description for spring.main.datasource.password."
+    },
+    {
+      "name": "jpa.show-sql",
+      "type": "java.lang.String",
+      "description": "Description for jpa.show-sql."
+    },
+    {
+      "name": "jpa.hibernate.ddl-auto",
+      "type": "java.lang.String",
+      "description": "Description for jpa.hibernate.ddl-auto."
+    }
+  ] }

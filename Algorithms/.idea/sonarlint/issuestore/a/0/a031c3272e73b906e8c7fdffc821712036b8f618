@@ -1,0 +1,10 @@
+
+y
+java:S1488+"^Immediately return this expression instead of assigning it to the temporary variable "result".(œ°¡ùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Øâ¾»ÿÿÿÿÿ
+V	java:S125	"<This block of commented-out lines of code should be removed.(²¾£ıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(«úäŒ
+@	java:S106"+Replace this use of System.out by a logger.(à©ä
+@	java:S106"+Replace this use of System.out by a logger.(«úäŒ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÔÉÎã
+@	java:S106*"+Replace this use of System.out by a logger.(†™ñ‹

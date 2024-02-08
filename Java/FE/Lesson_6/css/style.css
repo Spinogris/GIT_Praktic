@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10px;
+}
+
+.block p {
+    border: 1px solid red;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.block p:first-child {
+    color: red;
+    width: 100px;
+    height: 10px;
+}
+.block p:last-child {
+    color: green;
+    width: 100px;
+    height: 100px;
+}
+.block p:nth-child(2) {
+    color: blue;
+    width: 100px;
+    height: 20px;
+}
+.block p:nth-child(3) {
+    color: gold;
+    width: 100px;
+    height: 30px;
+}
+.block p:nth-child(4) {
+    color: rgb(220, 220, 220);
+    width: 100px;
+    height: 40px;
+}
+.block p:nth-child(5) {
+    color: rgb(135, 134, 134);
+    width: 100px;
+    height: 50px;
+}
+.block p:nth-child(6) {
+    color: rgb(245, 113, 56);
+    width: 100px;
+    height: 60px;
+}
+.block p:nth-child(7) {
+    color: rgb(43, 209, 43);
+    width: 100px;
+    height: 70px;
+}
+.block p:nth-child(8) {
+    color: rgb(151, 179, 8);
+    width: 100px;
+    height: 80px;
+}
+.block p:nth-child(9) {
+    color: rgb(255, 0, 221);
+    width: 100px;
+    height: 90px;
+}
+
+.inline p {
+    display: inline-block;
+    vertical-align: bottom; /*  позицианирует по вертикали   */
+}
+.inline {
+    text-align: center;
+    font-size: 0;
+}
+
+/*=============================================*/
+.flex div div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: silver;
+}
+.flex div {
+    display: flex;
+}
+/* .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+    justify-content: space-around;
+} */
+
+.flex .between {
+    justify-content: space-between;
+}
+.flex .around {
+    justify-content: space-around;
+}
+.flex .evenly {
+    justify-content: space-evenly;
+}
+.align_block {
+    border: 1px solid black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    /* align-items: stretch; */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+/* 
+git add *files*
+git commit -m "Message"
+git push origin main/ main name of branch */

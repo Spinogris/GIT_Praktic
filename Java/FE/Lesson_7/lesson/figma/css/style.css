@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url(../media/futer.jpg);
+    padding-top: 135px;
+    padding-bottom: 140px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+#message_form {
+    display: flex;
+    flex-direction: column;
+}
+
+#message_form .user_data_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+#message_form .user_data_box div {
+    display: flex;
+    flex-direction: column;
+}
+
+#message_form .user_data_box div:first-child {
+    margin-right: 30px;
+}
+
+#message_form .button_box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#message_form .button_box button {
+    background-color: #005FA3;
+    padding: 19px 18px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+#message_form .message_box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#message_form input,
+#message_form textarea {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#message_form input {
+    padding-bottom: 15px;
+}
+
+#message_form textarea {
+    resize: none;
+    height: 100px;
+}
+
+#message_form label {
+    margin-bottom: 15px;
+}
+
+#message_form input::placeholder,
+#message_form textarea::placeholder {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+}

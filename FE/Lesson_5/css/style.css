@@ -1,0 +1,17 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+div {
+
+    display: flex;
+    flex-direction: row;
+}
+.d1 {
+    margin: 30px;
+    padding: 30px;
+    background-color: antiquewhite;
+    width: 300px;
+}

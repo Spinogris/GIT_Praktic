@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson_7</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- 
+        action = url server app 
+        method = || post
+    -->
+    <form action="" method="get">
+        <!--  
+            type = input [by default text]
+        -->
+        <label for="firstname_input">User Firstname</label>
+        <input type="text" name="firstname" placeholder="First Name" id="firstname_input">
+
+        <label for="lastname_input">User Lastname</label>
+        <input type="text" name="lastname" placeholder="Last Name" id="lastname_input">
+
+        <label for="about_me">Abou me</label>
+        <textarea name="about_me" id="about_me" cols="30" rows="10" placeholder="Maximum 5 words"></textarea>
+
+        <select name="profession">
+            <option disabled selected>Select your profession</option>
+            <option value="Terminator">Developer</option>
+            <option value="Deceiver">Maneger</option>
+            <option value="Looser">Desinger</option>
+            <option value="Builder">Builder</option>
+            <option value="Electriker">Electriker</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <div class="drink1">
+            <label for="beer_CB">Пиво</label>
+                <input type="checkbox" name="Beer" id="beer_CB">
+            <label for="coffee_CB">Кофе</label>
+                <input type="checkbox" name="Coffee" id="coffee_CB">
+            <label for="tee_CB">Чай</label>
+                <input type="checkbox" name="Tee" id="tee_CB">
+        </div>
+        <div class="drink2">
+            <label for="beer_rb">Пиво</label>
+                <input type="radio" name="drink" id="beer_rb" value="beer">
+            <label for="coffee_rb">Кофе</label>
+                <input type="radio" name="drink" id="coffee_rb" value="coffee">
+            <label for="tee_rb">Чай</label>
+                <input type="radio" name="drink" id="tee_rb" value="tee">
+        </div>
+
+        <button>Send</button>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form action="" method="post">
+        <!--  
+            type = input [by default text]
+        -->
+        <label for="firstname_input">User Firstname</label>
+        <input type="text" name="firstname" placeholder="First Name" id="firstname_input">
+        
+        <label for="lastname_input">User Lastname</label>
+        <input type="text" name="lastname" placeholder="Last Name" id="lastname_input">
+
+        <label for="about_me">Abou me</label>
+        <textarea name="about_me" id="about_me" cols="30" rows="10" placeholder="Maximum 5 words"></textarea>
+
+        <select name="profession">
+            <option disabled selected>Select your profession</option>
+            <option value="Terminator">Developer</option>
+            <option value="Deceiver">Maneger</option>
+            <option value="Looser">Desinger</option>
+            <option value="Builder">Builder</option>
+            <option value="Electriker">Electriker</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <div class="drink1">
+            <label for="beer_CB">Пиво</label>
+                <input type="checkbox" name="Beer" id="beer_CB">
+            <label for="coffee_CB">Кофе</label>
+                <input type="checkbox" name="Coffee" id="coffee_CB">
+            <label for="tee_CB">Чай</label>
+                <input type="checkbox" name="Tee" id="tee_CB">
+        </div>
+        <div class="drink2">
+            <label for="beer_rb">Пиво</label>
+                <input type="radio" name="drink" id="beer_rb" value="beer">
+            <label for="coffee_rb">Кофе</label>
+                <input type="radio" name="drink" id="coffee_rb" value="coffee">
+            <label for="tee_rb">Чай</label>
+                <input type="radio" name="drink" id="tee_rb" value="tee">
+        </div>
+
+        <button>Send</button>
+    </form>
+</body>
+</html>

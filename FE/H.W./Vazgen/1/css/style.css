@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 17px 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .button {
+    width: 272px;
+    height: 62px;
+    background-color: rgba(0, 84, 142, 1);
+    display: flex;
+    justify-content: center;
+}
+header .button button {
+    background-color: transparent;
+    color:rgba(255, 255, 255, 1);
+    border: none;
+    font-size: 18px;
+}
+
+/* ==================================== */
+
+main {
+    display: flex;
+    position: absolute;
+
+}
+main .box_1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+}
+main .box_1 .box {
+    display: flex;
+    
+}
+main .box_1 .box {
+    width: 100%;
+    height: 100%;
+}
+main .box_1 .box .fon_img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+main .box_1 .box .front_img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}

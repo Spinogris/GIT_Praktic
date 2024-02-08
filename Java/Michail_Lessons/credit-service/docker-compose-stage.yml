@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  rmt-new-frontend:
+    image: $AND_DOCKER_REGISTRY_NAME/$PROGECT-$APP:stage
+    container_name: $APP-stage
+    env_file: $ENV_STAGE
+    ports:
+      - 9002:8080
+    restart: always

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Lesson 24</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Username" class="username_input">
+        <button>Submit</button>
+    </form> -->
+    <div class="product_form_container">
+        <form id="product_form">
+            <input type="text" placeholder="Название" class="product_name">
+            <input type="number" placeholder="Цена" class="product_price">
+            <button>Добавить</button>
+        </form>
+    </div>
+    <div class="products-filter">
+        <form id="products_filters_form">
+            <input type="text" placeholder="Название" class="product_search_text">
+            <div>
+                <label for="product_sort">Отсортировать по:</label>
+                <select id="product_sort">
+                    <option value="name">Название</option>
+                    <option value="price">Цене</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    <div class="products_container">
+        <!-- <div class="product-item">
+            <p>Name</p>
+            <p>Price</p>
+            <div class="remove">X</div>
+        </div> -->
+        <h1>Товаров нет</h1>
+    </div>
+    
+</body>
+<script src="./scripts/script.js"></script>
+</html>

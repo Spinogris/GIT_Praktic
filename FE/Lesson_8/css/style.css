@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0 20px;
+}
+.container {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.container .inner {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: silver;
+    text-align: center;
+    color: yellow;
+    font-size: 24px;
+    /*==================*/
+    /* position: relative;
+    left: 125px;
+    top: 125px; */
+    /*==================*/
+    position: absolute;
+    /* bottom: 111px;
+    right: 10px; */
+    /*==================*/
+}
+
+/* .container .inner:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+.container .inner:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+.container .inner:nth-child(3) {
+    bottom: 0;
+    right: 0;
+}
+.container .inner:nth-child(4) {
+    bottom: 0;
+    left: 0;
+} */
+
+/*========================================*/
+
+p {
+    margin: 10px;
+}
+
+.sekond_task .inner:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+.sekond_task .inner:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+.sekond_task .inner:nth-child(3) {
+    bottom: 0;
+    right: 0;
+}
+.sekond_task .inner:nth-child(4) {
+    bottom: 0;
+    left: 0;
+}
+/* ===================================== */
+.third_task .inner:nth-child(1) {
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+.third_task .inner:nth-child(2) {
+    top: 25px;
+    left: 25px;
+    z-index: 10;
+}
+.third_task .inner:nth-child(3) {
+    top: 50px;
+    left: 50px;
+}
+.third_task .inner:nth-child(4) {
+    top: 75px;
+    left: 75px;
+}
+/* ===================================== */
+.arrow_up {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid silver;
+    background-color: red;
+    font-size: 24px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+nav {
+    width: 100%;
+    padding: 5px 0;
+    background-color: aqua;
+    position: sticky;/* ставит элемент по очереди */
+    top: 0;
+    z-index: 99999;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+nav ul lI {
+    cursor: pointer;
+}

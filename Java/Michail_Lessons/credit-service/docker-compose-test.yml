@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  rmt-new-frontend:
+    image: $AND_DOCKER_REGISTRY_NAME/$PROJECT-$APP:test
+    container_name: $APP-test
+    env_file: $ENV_TEST
+    ports:
+      - 9002:8080
+    restart: always

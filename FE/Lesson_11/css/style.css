@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    padding: 15px 70px;
+    justify-content: space-between;
+    background-color: rgba(26, 188, 156, 1);
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    cursor: pointer;
+}
+header nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+header .social_box img:not(:last-child) {
+    margin-right: 20px;
+}
+
+/*============================================*/
+
+.about_us {
+    display: flex;
+}
+.about_us div {
+    width: 50%;
+}
+.about_us div:first-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about_us div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 62px;
+    padding-right: 70px;
+    text-align: justify;
+}
+.about_us :nth-child(2) h2 {
+    margin-bottom: 23px;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.about_us :nth-child(2) p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/*============================================*/
+
+.uor_projects {
+    background: rgba(220, 255, 235, 1);
+   padding: 124px 65px;
+}
+
+.uor_projects div h2 {
+    margin-bottom: 50px;
+}
+
+.uor_projects div div {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.uor_projects div div article {
+    background-image: url(../media/project.png);
+    width: 436px;
+    height: 376px;
+    padding: 0 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 10px;
+}
+
+.uor_projects div div article:not(:last-child) {
+    margin-right: 37px;
+}
+
+.uor_projects div div article h3 {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.uor_projects div div article h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.uor_projects div div article p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.our_projects div div article:not(:last-child) {
+    margin-right: 37px;
+}
+
+/*============================================*/
+
+
+footer h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: 70px;
+    margin-top: 84px;
+}
+footer div {
+    padding: 69px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div div:first-child {
+    width: 240px;
+    height: 191px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer div div:nth-child(2) {
+    width: 100px;
+    height: 191px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer div div:nth-child(3) {
+    width: 210px;
+    height: 191px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer div div:nth-child(4) {
+    width: 210px;
+    height: 191px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_img {
+    width: 87px;
+    height: 29px;
+}
+footer div div div h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #999999;
+}
+
+footer div div div p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+footer div div:last-child div p {
+    color: #F7654A;
+}

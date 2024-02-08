@@ -1,0 +1,2 @@
+Class Object methods java
+equals and hashCode contract java

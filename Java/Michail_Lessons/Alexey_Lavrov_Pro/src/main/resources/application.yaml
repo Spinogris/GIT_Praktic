@@ -1,0 +1,38 @@
+spring:
+  main:
+    banner-mode: off
+
+  datasource:
+    url: jdbc:mysql://${DATASOURCE.HOST}:${DATASOURCE.PORT}/${DATASOURCE.DBNAME}?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+    username: ${DATASOURCE.USERNAME}
+    password: ${DATASOURCE.PASSWORD}
+
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+
+  liquibase:
+    change-log: classpath:db/changeLog/changelog-master.xml
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        security: DEBUG
+
+jwt:
+  secret:
+    access: ${JWT.SECRET.ACCESS}
+    refresh: ${JWT.SECRET.REFRESH}
+
+redis:
+  username: ${REDIS.USERNAME}
+  password: ${REDIS.PASSWORD}
+  host: ${REDIS.HOST}
+  port: ${REDIS.PORT}

@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: blanchedalmond;
+}
+div {
+    padding: 30px;
+}
+ol, ul {
+    padding-left: 40px;
+}
+ol {
+    /* list-style: upper-latin; */
+}
+ul {
+    /* list-style: upper-roman; */
+}
+
+table.t1 {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    color: rgb(0, 255, 102);
+}
+#r1 {
+    background-color: rgb(255, 0, 0);
+}
+
+table.t1 td {
+    padding: 40px;
+    border-style: dashed;
+    border-radius: 30px;
+}
+table.t1 a, table.t2 a {
+    color: aliceblue;
+}
+/* table.t2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYaY2aDKOuke_OQTXbiKtt7Sd4QjPAKl6qOg&usqp=CAU);
+    color: aquamarine;
+} */
+table.t2 tr td {
+    padding: 20px;
+    border-radius: 100px 20px;
+}
+/* .tr1 td {
+    background-color: gray;
+}
+#menu1 {
+    padding: 40px;
+    background-color: antiquewhite;
+    border-style: dashed;
+} */
+
+/*...even - чётные...*/
+/*...odd - не чётные...*/
+/*...number ->...*/
+.t2 tr:nth-child(odd) {
+    background-color: rgb(0, 52, 241);
+}
+.t2 tr td:nth-child(even) {
+    background-color: rgb(0, 241, 76);
+}                                    /*...???...*/
+
+
+

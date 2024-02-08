@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.table {
+    width: 300px;
+    height: 170px;
+    border: 1px solid black;
+    transition: all 2s 0.2s ;
+}
+
+tbody tr td {
+    border: 1px solid black;
+}
+thead {
+    background-color: rgb(91, 91, 91);
+    color: rgb(233, 233, 233);
+}
+thead tr td {
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: silver;
+}
+table:hover {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(189, 189, 246);
+    transform: rotate(720deg);
+    box-shadow: 0 0 10px 10px rgb(189, 189, 246);
+}

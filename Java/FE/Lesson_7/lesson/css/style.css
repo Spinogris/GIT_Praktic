@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+}
+#firstname_input:focus, 
+#lastname_input:focus,
+#about_me:focus {
+    border: none;
+    outline: none;
+    box-shadow: 3px 3px 3px 3px rgb(127, 127, 127);
+    padding: 1%;
+    }
+form {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+form *:not(:last-child) {
+    margin-bottom: 10px;
+}
+button, .drink2, .drink1 {
+    width: 20%;
+    margin-left: 40%;
+}
+#firstname_input, 
+#lastname_input,
+#about_me {
+    transition: box-shadow 2s, padding 2s;
+}
+
+/* transition: box-shadow 2s */

@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 10px;
+}
+p {
+    border: solid 1px red;
+    margin-bottom: 5px;
+
+}
+
+.p1 {
+    width: 50%;
+}
+
+.p2 {
+    width: 100vw;
+}
+
+.p3 {
+    width: 100%;
+}
+
+ul {
+    padding-left: 40px;
+}
+li { /*  em - element  */
+     /*  rem - root element*/
+    font-size: 2rem;
+}
+.box {               /* viewpoint widht */
+                        /*  viewpoint hwight*/
+
+    border: 1px solid red;
+    width: 50vmin;  
+    height: 50vmax; 
+}
+.box1 {               /* viewpoint widht */
+                         /*  viewpoint hight*/
+    border: 1px solid red;
+    max-width: 600px;
+    min-width: 300px;
+    max-height: 400px;   
+    min-height: 300px;
+}
+img {
+    width: 100%;
+}
+
+.b2 {
+    background-image: url(https://thumbs.dreamstime.com/b/abstraktes-hintergrund-fon-uhod-zeile-im-abstand-und-im-rotati-28079552.jpg);
+    background-size: 100%;
+    width: 50%;
+    height: 400px;
+    padding: 30px 5%;
+    margin: 40px 25%;
+    border: 5px solid rgba(255, 255, 255, 0.6);
+    border-radius: 2%;
+}        
+
+/*..................................................................*/
+
+.cont {
+    width: 80%;
+    max-width: 1200px;
+    min-height: 400px;
+    border: 1px solid green;
+    margin: 20px auto;
+    padding: 20px;
+}
+.cont img {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    object-fit: cover;
+    object-position: left;
+}
+.cont a {
+    text-decoration: none;
+}
+.cont a img {
+    width: 50px;
+    height: 50px;
+}
+/* #img1 {
+    height: 50px;
+    object-fit: cover;
+}
+#img2 {
+    height: 50px;
+    object-fit: cover;
+}
+#img3 {
+    height: 50px;
+    object-fit: cover;
+}
+#img4 {
+    height: 50px;
+    object-fit: cover;
+} */
+.cont #img1, .cont #img2, .cont #img3, .cont #img4 {
+    width: 100px;
+    
+}

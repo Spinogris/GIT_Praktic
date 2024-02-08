@@ -1,0 +1,15 @@
+*
+s1 = aaa
+s2 = ##aaa###aaa
+s1 = adga
+s2 = aa#dg#gs##a
+*
+
+*
+s = "LDLDRURU"
+*
+
+*
+j = "ahT"
+s = "uyayhhTyRthh"
+*

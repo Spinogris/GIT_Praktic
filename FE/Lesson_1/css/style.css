@@ -1,0 +1,26 @@
+/*
+    serlector {
+        style:value;
+        style:value;
+        }
+*/
+img {
+    width: 150px;
+    height: 60px;
+}
+h1, h2, h3, h4, h5, h6, p#a1, pre {
+    border: 1px solid red;
+}
+p {
+    color: red;
+   /* width: 50px;
+    margin: 70px;
+    font-size: 20px;
+    */
+}
+a {
+   margin: 100px;
+}
+#a0 {
+    background-color: blue;
+}
